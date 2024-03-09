@@ -244,7 +244,7 @@
         </section>
         <!-- ***** Features Item End ***** -->
 
-        <section class="section" id="our-classes">
+        <section class="section" id="our-classes" style="background-color: rgb(232, 236, 235);">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 offset-lg-3">
@@ -357,6 +357,7 @@
                     <div class="col-lg-10 offset-lg-1">
                         <div class="cta-content">
                             <h2>persentase <em>jenis kerja</em></h2>
+                            <hr />
                             <p>
                                 Total Siswa Berangkat <strong>907</strong> orang
                             </p>
@@ -522,13 +523,145 @@
         </section>
         <!-- ***** Call to Action End ***** -->
 
+        <!-- ***** Testimonials Starts ***** -->
+        <section class="section" id="trainers">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-3">
+                        <div class="section-heading">
+                            <h2>Instruktur <em>Berpengalaman</em></h2>
+                            <img
+                                src="{{ asset('assets/images/line-dec.png')}}"
+                                alt=""
+                            />
+                            <p>Under Construction</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="trainer-item">
+                            <div class="image-thumb">
+                                <img
+                                    src="{{ asset('assets/images/first-trainer.jpg')}}"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="down-content">
+                                <span>Sensei</span>
+                                <h4>Habib</h4>
+                                <p>Under Construction</p>
+                                <ul class="social-icons">
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fa fa-facebook"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fa fa-twitter"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fa fa-linkedin"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fa fa-behance"></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="trainer-item">
+                            <div class="image-thumb">
+                                <img
+                                    src="{{ asset('assets/images/second-trainer.jpg')}}"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="down-content">
+                                <span>Sensei</span>
+                                <h4>Lili</h4>
+                                <p>Under Construction</p>
+                                <ul class="social-icons">
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fa fa-facebook"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fa fa-twitter"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fa fa-linkedin"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fa fa-behance"></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="trainer-item">
+                            <div class="image-thumb">
+                                <img
+                                    src="{{ asset('assets/images/third-trainer.jpg')}}"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="down-content">
+                                <span>Sensei</span>
+                                <h4>Fani</h4>
+                                <p>Under Construction</p>
+                                <ul class="social-icons">
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fa fa-facebook"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fa fa-twitter"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fa fa-linkedin"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fa fa-behance"></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ***** Testimonials Ends ***** -->
+
         <!-- ***** Features Item Start ***** -->
         <section class="section" id="features">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 offset-lg-3">
                         <div class="section-heading">
-                            <h2>fasilitas <em>kami</em></h2>
+                            <h2>jenis <em>kerja</em></h2>
                             <img
                                 src="{{ asset('assets/images/line-dec.png')}}"
                                 alt="waves"
@@ -697,16 +830,16 @@
                     <div class="col-lg-4">
                         <ul>
                             <li>
-                                <a href="#tabs-1">Bahasa Jepang</a>
+                                <a href="#tabs-7">Bahasa Jepang</a>
                             </li>
                             <li>
-                                <a href="#tabs-2">Budaya Jepang</a>
+                                <a href="#tabs-8">Budaya Jepang</a>
                             </li>
                             <li>
-                                <a href="#tabs-3">Pengetahuan Magang</a>
+                                <a href="#tabs-9">Pengetahuan Magang</a>
                             </li>
                             <li>
-                                <a href="#tabs-4"
+                                <a href="#tabs-10"
                                     >FMD (Fisik, Mental, Disiplin &amp; Wawasan
                                     Kebangsaan)</a
                                 >
@@ -715,7 +848,7 @@
                     </div>
                     <div class="col-lg-8">
                         <section class="tabs-content">
-                            <article id="tabs-1">
+                            <article id="tabs-7">
                                 <img
                                     src="{{ asset('assets/images/training-image-01.JPG')}}"
                                     alt="First Class"
@@ -730,7 +863,7 @@
                                     natus? Hic, et consequatur.
                                 </p>
                             </article>
-                            <article id="tabs-2">
+                            <article id="tabs-8">
                                 <img
                                     src="{{ asset('assets/images/training-image-02.JPG')}}"
                                     alt="Second Training"
@@ -747,7 +880,7 @@
                                     parturient montes, nascetur ridiculus mus.
                                 </p>
                             </article>
-                            <article id="tabs-3">
+                            <article id="tabs-9">
                                 <img
                                     src="{{ asset('assets/images/training-image-03.JPG')}}"
                                     alt="Third Class"
@@ -763,7 +896,7 @@
                                     semper vel, accumsan a neque.
                                 </p>
                             </article>
-                            <article id="tabs-4">
+                            <article id="tabs-10">
                                 <img
                                     src="{{ asset('assets/images/training-image-04.jpg')}}"
                                     alt="Fourth Training"
@@ -910,166 +1043,6 @@
                 </div>
             </div>
         </section>
-
-        <!-- ***** Testimonials Starts ***** -->
-        <section class="section" id="trainers">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 offset-lg-3">
-                        <div class="section-heading">
-                            <h2>Instruktur <em>Berpengalaman</em></h2>
-                            <img
-                                src="{{ asset('assets/images/line-dec.png')}}"
-                                alt=""
-                            />
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Voluptatibus quod quis
-                                officiis nam qui mollitia laboriosam illum
-                                aperiam dolorum magnam! Eos sed pariatur
-                                veritatis rerum voluptatum laboriosam at a quam?
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="trainer-item">
-                            <div class="image-thumb">
-                                <img
-                                    src="{{ asset('assets/images/first-trainer.jpg')}}"
-                                    alt=""
-                                />
-                            </div>
-                            <div class="down-content">
-                                <span>Sensei</span>
-                                <h4>Habib</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Reprehenderit, adipisci?
-                                    Optio quam a ipsum, quisquam neque ullam sit
-                                    maxime beatae eos officia est adipisci
-                                    voluptas eaque laborum, maiores sapiente
-                                    earum.
-                                </p>
-                                <ul class="social-icons">
-                                    <li>
-                                        <a href="#"
-                                            ><i class="fa fa-facebook"></i
-                                        ></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"
-                                            ><i class="fa fa-twitter"></i
-                                        ></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"
-                                            ><i class="fa fa-linkedin"></i
-                                        ></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"
-                                            ><i class="fa fa-behance"></i
-                                        ></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="trainer-item">
-                            <div class="image-thumb">
-                                <img
-                                    src="{{ asset('assets/images/second-trainer.jpg')}}"
-                                    alt=""
-                                />
-                            </div>
-                            <div class="down-content">
-                                <span>Sensei</span>
-                                <h4>Nana</h4>
-                                <p>
-                                    Lorem ipsum dolor sit, amet consectetur
-                                    adipisicing elit. Aspernatur voluptatibus
-                                    quidem id reiciendis impedit aliquid
-                                    consectetur tempora? Exercitationem
-                                    doloremque adipisci incidunt quod facere
-                                    magnam beatae ipsum animi quam magni!
-                                    Commodi!
-                                </p>
-                                <ul class="social-icons">
-                                    <li>
-                                        <a href="#"
-                                            ><i class="fa fa-facebook"></i
-                                        ></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"
-                                            ><i class="fa fa-twitter"></i
-                                        ></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"
-                                            ><i class="fa fa-linkedin"></i
-                                        ></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"
-                                            ><i class="fa fa-behance"></i
-                                        ></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="trainer-item">
-                            <div class="image-thumb">
-                                <img
-                                    src="{{ asset('assets/images/third-trainer.jpg')}}"
-                                    alt=""
-                                />
-                            </div>
-                            <div class="down-content">
-                                <span>Sensei</span>
-                                <h4>Fani</h4>
-                                <p>
-                                    Lorem ipsum dolor sit, amet consectetur
-                                    adipisicing elit. Deleniti esse, minus
-                                    molestias libero voluptatum eos perferendis,
-                                    ipsam excepturi, eum atque modi suscipit
-                                    tenetur amet. Aliquam molestias nobis alias
-                                    eveniet consequatur.
-                                </p>
-                                <ul class="social-icons">
-                                    <li>
-                                        <a href="#"
-                                            ><i class="fa fa-facebook"></i
-                                        ></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"
-                                            ><i class="fa fa-twitter"></i
-                                        ></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"
-                                            ><i class="fa fa-linkedin"></i
-                                        ></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"
-                                            ><i class="fa fa-behance"></i
-                                        ></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ***** Testimonials Ends ***** -->
 
         <!-- Pertanyaan Yang Sering di Ajukan -->
         <section class="section" id="trainers">
@@ -1531,13 +1504,90 @@
                             </div>
                         </div>
                     </div>
+                    <h2 style="text-align: center;font-size: large;">Tidak menemukan jawaban? Tinggalkan pesan disini, admin akan menjawab pertanyaan anda.</h2>
+                    <div class="row mt-5 justify-content-center">
+                    <div class="col-lg-10">
+                        <form
+                            action="forms/contact.php"
+                            method="post"
+                            role="form"
+                            class="php-email-form"
+                        >
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <input
+                                        type="text"
+                                        name="name"
+                                        class="form-control"
+                                        id="name"
+                                        placeholder="Your Name"
+                                        required
+                                    />
+                                </div>
+                                <div class="col-md-6 form-group mt-3 mt-md-0">
+                                    <input
+                                        type="email"
+                                        class="form-control"
+                                        name="email"
+                                        id="email"
+                                        placeholder="Your Email"
+                                        required
+                                    />
+                                </div>
+                            </div>
+                            <div class="form-group mt-3">
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    name="subject"
+                                    id="subject"
+                                    placeholder="Subject"
+                                    required
+                                />
+                            </div>
+                            <div class="form-group mt-3">
+                                <textarea
+                                    class="form-control"
+                                    name="message"
+                                    rows="5"
+                                    placeholder="Message"
+                                    required
+                                ></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" style="border-radius: 10px; background-color: goldenrod;">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
                 </div>
             </div>
         </section>
         <!-- Pertanyaan Yang Sering di Ajukan End -->
 
+        <section id="contact-us" class="section">
+            <div class="container">
+                <div
+                    class="row no-gutters justify-content-center">
+                    
+
+                        <iframe
+                            style="border: 0; width: 100%; height: 270px"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+                            frameborder="0"
+                            allowfullscreen
+                        ></iframe>
+                    
+                </div>
+
+        
+                </div>
+            </div>
+        </section>
+        <!-- End Contact Section -->
+
         <!-- ***** Contact Us Area Starts ***** -->
-        <section class="section" id="contact-us">
+        <!-- <section class="section" id="contact-us">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-xs-12">
@@ -1617,29 +1667,10 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- ***** Contact Us Area Ends ***** -->
 
-        <!-- ***** Footer Start ***** -->
-        <!-- <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <p>
-                            Copyright &copy; 2024 LPK Mitra Jaya Indonesia -
-                            Designed by
-                            <a
-                                rel="nofollow"
-                                href="https://lpkmji.id"
-                                class="tm-text-link"
-                                target="_parent"
-                                >Admin</a
-                            ><br />
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </footer> -->
+        
 
         <!-- ======= Footer ======= -->
         <footer id="footer">
