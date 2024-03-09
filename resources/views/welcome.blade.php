@@ -71,10 +71,10 @@
                             <!-- ***** Menu Start ***** -->
                             <ul class="nav">
                                 <li class="scroll-to-section">
-                                    <a href="#top" class="active">Home | 家</a>
+                                    <a href="#top" class="active">Home | ホーム</a>
                                 </li>
                                 <li class="scroll-to-section">
-                                    <a href="#features">About us</a>
+                                    <a href="#features">About us | について</a>
                                 </li>
                                 <li class="scroll-to-section">
                                     <a href="#our-classes">Program </a>
