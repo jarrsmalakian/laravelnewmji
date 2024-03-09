@@ -71,7 +71,7 @@
                             <!-- ***** Menu Start ***** -->
                             <ul class="nav">
                                 <li class="scroll-to-section">
-                                    <a href="#top" class="active">Home</a>
+                                    <a href="#top" class="active">Home | 家</a>
                                 </li>
                                 <li class="scroll-to-section">
                                     <a href="#features">About us</a>
