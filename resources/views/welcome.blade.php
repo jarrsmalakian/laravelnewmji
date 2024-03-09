@@ -74,20 +74,18 @@
                                     <a href="#top" class="active">Home</a>
                                 </li>
                                 <li class="scroll-to-section">
-                                    <a href="#features">About us</a>
+                                    <a href="#features">AP2LN</a>
                                 </li>
                                 <li class="scroll-to-section">
-                                    <a href="#our-classes">Program </a>
+                                    <a href="#our-classes">Informasi</a>
                                 </li>
                                 <li class="scroll-to-section">
-                                    <a href="#schedule">jadwal</a>
+                                    <a href="#schedule">karir</a>
                                 </li>
                                 <li class="scroll-to-section">
                                     <a href="#contact-us">kontak</a>
                                 </li>
-                              
-                               
-                                
+
                                 <li class="main-button">
                                     <a href="">Login</a>
                                 </li>
@@ -118,9 +116,7 @@
                     <!-- <h6>let's grow tothether with us</h6> -->
                     <h2>let's grow together <em>with us</em></h2>
                     <div class="main-button scroll-to-section">
-                        
                         <a href="">daftar magang</a>
-                       
                     </div>
                 </div>
             </div>
@@ -247,7 +243,7 @@
             </div>
         </section>
         <!-- ***** Features Item End ***** -->
-        
+
         <section class="section" id="our-classes">
             <div class="container">
                 <div class="row">
@@ -274,19 +270,13 @@
                                 <a href="#tabs-3">Ruang Kelas</a>
                             </li>
                             <li>
-                                <a href="#tabs-4"
-                                    >Ruang Makan</a
-                                >
+                                <a href="#tabs-4">Ruang Makan</a>
                             </li>
                             <li>
-                                <a href="#tabs-5"
-                                    >Kamar Tidur</a
-                                >
+                                <a href="#tabs-5">Kamar Tidur</a>
                             </li>
                             <li>
-                                <a href="#tabs-6"
-                                    >Lapangan Olahraga</a
-                                >
+                                <a href="#tabs-6">Lapangan Olahraga</a>
                             </li>
                         </ul>
                     </div>
@@ -299,7 +289,7 @@
                                 />
                                 <h4>Ruang Kantor</h4>
                                 <p>
-                                    Ruang kerja staff LPK Mitra Jaya Indonesia 
+                                    Ruang kerja staff LPK Mitra Jaya Indonesia
                                 </p>
                             </article>
                             <article id="tabs-2">
@@ -308,9 +298,7 @@
                                     alt="Second Training"
                                 />
                                 <h4>Ruang Tamu</h4>
-                                <p>
-                                    Ruang untuk menerima tamu
-                                </p>
+                                <p>Ruang untuk menerima tamu</p>
                             </article>
                             <article id="tabs-3">
                                 <img
@@ -319,7 +307,8 @@
                                 />
                                 <h4>Ruang Kelas</h4>
                                 <p>
-                                    4 Ruang kelas penunjang kegiatan belajar mengajar dengan kapasitas per kelas 20 orang 
+                                    4 Ruang kelas penunjang kegiatan belajar
+                                    mengajar dengan kapasitas per kelas 20 orang
                                 </p>
                             </article>
                             <article id="tabs-4">
@@ -327,11 +316,10 @@
                                     src="{{ asset('assets/images/training-image-04.jpg')}}"
                                     alt="Fourth Training"
                                 />
-                                <h4>
-                                    Ruang Makan
-                                </h4>
+                                <h4>Ruang Makan</h4>
                                 <p>
-                                    1 ruang makan untuk para siswa magang dengan kapasitas 80 orang 
+                                    1 ruang makan untuk para siswa magang dengan
+                                    kapasitas 80 orang
                                 </p>
                             </article>
                             <article id="tabs-5">
@@ -339,11 +327,10 @@
                                     src="{{ asset('assets/images/training-image-04.jpg')}}"
                                     alt="Fourth Training"
                                 />
-                                <h4>
-                                    Kamar Tidur
-                                </h4>
+                                <h4>Kamar Tidur</h4>
                                 <p>
-                                    Asrama khusus laki-laki dengan kapasitas tempat tidur 80 orang 
+                                    Asrama khusus laki-laki dengan kapasitas
+                                    tempat tidur 80 orang
                                 </p>
                             </article>
                             <article id="tabs-6">
@@ -351,11 +338,10 @@
                                     src="{{ asset('assets/images/training-image-04.jpg')}}"
                                     alt="Fourth Training"
                                 />
-                                <h4>
-                                    Lapangan Olahraga
-                                </h4>
+                                <h4>Lapangan Olahraga</h4>
                                 <p>
-                                    Lapangan olahraga untuk melatih fisik dan kesehatan para peserta magang 
+                                    Lapangan olahraga untuk melatih fisik dan
+                                    kesehatan para peserta magang
                                 </p>
                             </article>
                         </section>
@@ -370,20 +356,164 @@
                 <div class="row">
                     <div class="col-lg-10 offset-lg-1">
                         <div class="cta-content">
-                            <h2>
-                                masa depan <em>lebih baik</em>, bersama
-                                <em>mitra </em>jaya indonesia
-                            </h2>
+                            <h2>persentase <em>jenis kerja</em></h2>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Distinctio dolor iusto cum
-                                libero facere suscipit exercitationem laborum
-                                laudantium quibusdam, temporibus nemo quo error
-                                mollitia impedit corporis fugit unde hic
-                                numquam!
+                                Total Siswa Berangkat <strong>907</strong> orang
                             </p>
-                            <div class="main-button scroll-to-section">
-                                <a href="#our-classes">Become a member</a>
+                            <div class="progress" style="height: 20px">
+                                <div
+                                    class="progress-bar progress-bar-striped progress-bar-animated"
+                                    role="progressbar"
+                                    aria-valuenow="77"
+                                    aria-valuemin="0"
+                                    aria-valuemax="907"
+                                    style="width: 77%"
+                                ></div>
+                                Iron Working : 77,84%
+                            </div>
+                            <p></p>
+                            <div class="progress" style="height: 20px">
+                                <div
+                                    class="progress-bar progress-bar-striped progress-bar-animated"
+                                    role="progressbar"
+                                    aria-valuenow="10"
+                                    aria-valuemin="0"
+                                    aria-valuemax="907"
+                                    style="width: 10%"
+                                ></div>
+                                Casting : 9,15%
+                            </div>
+                            <p></p>
+                            <div class="progress" style="height: 20px">
+                                <div
+                                    class="progress-bar progress-bar-striped progress-bar-animated"
+                                    role="progressbar"
+                                    aria-valuenow="5"
+                                    aria-valuemin="0"
+                                    aria-valuemax="907"
+                                    style="width: 5%"
+                                ></div>
+                                Machining : 2,76%
+                            </div>
+                            <p></p>
+                            <div class="progress" style="height: 20px">
+                                <div
+                                    class="progress-bar progress-bar-striped progress-bar-animated"
+                                    role="progressbar"
+                                    aria-valuenow="4"
+                                    aria-valuemin="0"
+                                    aria-valuemax="907"
+                                    style="width: 4%"
+                                ></div>
+                                Painting : 2,21%
+                            </div>
+                            <p></p>
+                            <div class="progress" style="height: 20px">
+                                <div
+                                    class="progress-bar progress-bar-striped progress-bar-animated"
+                                    role="progressbar"
+                                    aria-valuenow="4"
+                                    aria-valuemin="0"
+                                    aria-valuemax="907"
+                                    style="width: 4%"
+                                ></div>
+                                Factory Metal Sheet Work : 2,21%
+                            </div>
+                            <p></p>
+                            <div class="progress" style="height: 20px">
+                                <div
+                                    class="progress-bar progress-bar-striped progress-bar-animated"
+                                    role="progressbar"
+                                    aria-valuenow="3"
+                                    aria-valuemin="0"
+                                    aria-valuemax="907"
+                                    style="width: 3%"
+                                ></div>
+                                Electroplating : 1,54%
+                            </div>
+                            <p></p>
+                            <div class="progress" style="height: 20px">
+                                <div
+                                    class="progress-bar progress-bar-striped progress-bar-animated"
+                                    role="progressbar"
+                                    aria-valuenow="2"
+                                    aria-valuemin="0"
+                                    aria-valuemax="907"
+                                    style="width: 2%"
+                                ></div>
+                                Scaffolding : 1,21%
+                            </div>
+                            <p></p>
+                            <div class="progress" style="height: 20px">
+                                <div
+                                    class="progress-bar progress-bar-striped progress-bar-animated"
+                                    role="progressbar"
+                                    aria-valuenow="2"
+                                    aria-valuemin="0"
+                                    aria-valuemax="907"
+                                    style="width: 2%"
+                                ></div>
+                                Ready-Made Meal Manufactoring Work : 0,99%
+                            </div>
+                            <p></p>
+                            <div class="progress" style="height: 20px">
+                                <div
+                                    class="progress-bar progress-bar-striped progress-bar-animated"
+                                    role="progressbar"
+                                    aria-valuenow="1"
+                                    aria-valuemin="0"
+                                    aria-valuemax="907"
+                                    style="width: 1%"
+                                ></div>
+                                Application Of Construction Equipment : 0,66%
+                            </div>
+                            <p></p>
+                            <div class="progress" style="height: 20px">
+                                <div
+                                    class="progress-bar progress-bar-striped progress-bar-animated"
+                                    role="progressbar"
+                                    aria-valuenow="1"
+                                    aria-valuemin="0"
+                                    aria-valuemax="907"
+                                    style="width: 1%"
+                                ></div>
+                                Welding : 0,22%
+                            </div>
+                            <p></p>
+                            <div class="progress" style="height: 20px">
+                                <div
+                                    class="progress-bar progress-bar-striped progress-bar-animated"
+                                    role="progressbar"
+                                    aria-valuenow="1"
+                                    aria-valuemin="0"
+                                    aria-valuemax="907"
+                                    style="width: 1%"
+                                ></div>
+                                Fish Paste Making : 0,22%
+                            </div>
+                            <p></p>
+                            <div class="progress" style="height: 20px">
+                                <div
+                                    class="progress-bar progress-bar-striped progress-bar-animated"
+                                    role="progressbar"
+                                    aria-valuenow="1"
+                                    aria-valuemin="0"
+                                    aria-valuemax="907"
+                                    style="width: 1%"
+                                ></div>
+                                Reinforcing Bar Construction : 0,22%
+                            </div>
+                            <p></p>
+                            <div class="progress" style="height: 20px">
+                                <div
+                                    class="progress-bar progress-bar-striped progress-bar-animated"
+                                    role="progressbar"
+                                    aria-valuenow="1"
+                                    aria-valuemin="0"
+                                    aria-valuemax="907"
+                                    style="width: 1%"
+                                ></div>
+                                Finishing Work : 0,11%
                             </div>
                         </div>
                     </div>
@@ -514,8 +644,8 @@
         </section>
         <!-- ***** Features Item End ***** -->
 
-         <!-- ***** Call to Action Start ***** -->
-         <section class="section" id="call-to-action">
+        <!-- ***** Call to Action Start ***** -->
+        <section class="section" id="call-to-action">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10 offset-lg-1">
@@ -1491,7 +1621,7 @@
         <!-- ***** Contact Us Area Ends ***** -->
 
         <!-- ***** Footer Start ***** -->
-        <footer>
+        <!-- <footer>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -1509,7 +1639,128 @@
                     </div>
                 </div>
             </div>
+        </footer> -->
+
+        <!-- ======= Footer ======= -->
+        <footer id="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="footer-info">
+                                <h3>LPK Mitra Jaya Indonesia</h3>
+                                <p>
+                                    Jl. Sunan Kalijaga IIIA <br />
+                                    Jurang Ombo Selatan, Kota Magelang<br /><br />
+                                    <strong>Phone:</strong> +622933196196<br />
+                                    <strong>Email:</strong>
+                                    admin@lpkmji.id<br />
+                                </p>
+                                <div class="social-links mt-3">
+                                    <a href="#" class="twitter"
+                                        ><i class="bx bxl-twitter"></i
+                                    ></a>
+                                    <a href="#" class="facebook"
+                                        ><i class="bx bxl-facebook"></i
+                                    ></a>
+                                    <a href="#" class="instagram"
+                                        ><i class="bx bxl-instagram"></i
+                                    ></a>
+                                    <a href="#" class="google-plus"
+                                        ><i class="bx bxl-skype"></i
+                                    ></a>
+                                    <a href="#" class="linkedin"
+                                        ><i class="bx bxl-linkedin"></i
+                                    ></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-2 col-md-6 footer-links">
+                            <h4>Useful Links</h4>
+                            <ul>
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="#">AP2LN</a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="#">Informasi</a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="#">Karir</a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="#">Kontak</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 footer-links">
+                            <h4>Our Services</h4>
+                            <ul>
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="#">Magang</a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="#">TG</a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="#">Tobi</a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="#">Pertanian</a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="#">Garmen</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 footer-newsletter">
+                            <h4>Our Newsletter</h4>
+                            <p>
+                                Tamen quem nulla quae legam multos aute sint
+                                culpa legam noster magna
+                            </p>
+                            <form action="" method="post">
+                                <input type="email" name="email" /><input
+                                    type="submit"
+                                    value="Subscribe"
+                                />
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="copyright">
+                    &copy; Copyright
+                    <strong><span>LPK Mitra Jaya Indonesia</span></strong
+                    >. All Rights Reserved
+                </div>
+                <div class="credits">
+                    <!-- All the links in the footer should remain intact. -->
+                    <!-- You can delete the links only if you purchased the pro version. -->
+                    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/maxim-free-onepage-bootstrap-theme/ -->
+                    Designed by <a href="https://lpkmji.id">Admin</a>
+                </div>
+            </div>
         </footer>
+        <!-- End Footer -->
 
         <!-- jQuery -->
         <script
@@ -1534,6 +1785,5 @@
 
         <!-- Global Init -->
         <script src="{{ asset('assets/js/custom.js')}}"></script>
-      
     </body>
 </html>
