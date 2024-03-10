@@ -1,9 +1,5 @@
 <?php
 
-use App\Http\Controllers\Ap2lnController;
-use App\Http\Controllers\InformasiController;
-use App\Http\Controllers\KarirController;
-use App\Http\Controllers\KontakController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -23,4 +19,20 @@ Route::get('/', function () {
 
 Route::get('/home', function () {
     return view('layout.home');
+});
+
+Route::get('/ap2ln', function () {
+    return view('menu.ap2ln');
+});
+
+Route::get('/informasi', function () {
+    return view('menu.informasi');
+});
+
+Route::get('/karir', function () {
+    return view('menu.karir');
+});
+
+Route::get('/kontak', function () {
+    return view('menu.kontak');
 });

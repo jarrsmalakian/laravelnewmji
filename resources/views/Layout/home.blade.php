@@ -1,13 +1,10 @@
 @extends('layout.main')
 
 @section('content')
-     <!-- ***** Main Banner Area Start ***** -->
-     <div class="main-banner" id="top">
+    <!-- ***** Main Banner Area Start ***** -->
+    <div class="main-banner" id="top">
         <video autoplay muted loop id="bg-video">
-            <source
-                src="{{ asset('assets/images/gym-video.mp4')}}"
-                type="video/mp4"
-            />
+            <source src="{{ asset('assets/images/gym-video.mp4') }}" type="video/mp4" />
         </video>
 
         <div class="video-overlay header-text">
@@ -29,16 +26,10 @@
                 <div class="col-lg-9">
                     <div class="section-heading">
                         <h2>Tentang <em>Kami</em></h2>
-                        <img
-                            src="{{ asset('assets/images/line-dec.png')}}"
-                            alt="waves"
-                        />
+                        <img src="{{ asset('assets/images/line-dec.png') }}" alt="waves" />
                         <div class="clearfix">
-                            <img
-                                src="{{ asset('assets/images/hakim.jpg')}}"
-                                class="col-md-6 float-md-end mb-3 ms-md-3"
-                                alt="direktur"
-                            />
+                            <img src="{{ asset('assets/images/hakim.jpg') }}" class="col-md-6 float-md-end mb-3 ms-md-3"
+                                alt="direktur" />
 
                             <p>
                                 <strong>Mitra Jaya Indonesia</strong> adalah
@@ -130,10 +121,7 @@
                     <ul class="features-items">
                         <li class="feature-item">
                             <div class="left-icon">
-                                <img
-                                    src="{{ asset('assets/images/features-first-icon.jpg')}}"
-                                    alt="gedung"
-                                />
+                                <img src="{{ asset('assets/images/features-first-icon.jpg') }}" alt="gedung" />
                             </div>
                         </li>
                     </ul>
@@ -149,10 +137,7 @@
                 <div class="col-lg-6 offset-lg-3">
                     <div class="section-heading">
                         <h2>fasilitas</h2>
-                        <img
-                            src="{{ asset('assets/images/line-dec.png')}}"
-                            alt=""
-                        />
+                        <img src="{{ asset('assets/images/line-dec.png') }}" alt="" />
                     </div>
                 </div>
             </div>
@@ -182,28 +167,19 @@
                 <div class="col-lg-8">
                     <section class="tabs-content">
                         <article id="tabs-1">
-                            <img
-                                src="{{ asset('assets/images/training-image-01.JPG')}}"
-                                alt="First Class"
-                            />
+                            <img src="{{ asset('assets/images/training-image-01.JPG') }}" alt="First Class" />
                             <h4>Ruang Kantor</h4>
                             <p>
                                 Ruang kerja staff LPK Mitra Jaya Indonesia
                             </p>
                         </article>
                         <article id="tabs-2">
-                            <img
-                                src="{{ asset('assets/images/training-image-02.JPG')}}"
-                                alt="Second Training"
-                            />
+                            <img src="{{ asset('assets/images/training-image-02.JPG') }}" alt="Second Training" />
                             <h4>Ruang Tamu</h4>
                             <p>Ruang untuk menerima tamu</p>
                         </article>
                         <article id="tabs-3">
-                            <img
-                                src="{{ asset('assets/images/training-image-03.JPG')}}"
-                                alt="Third Class"
-                            />
+                            <img src="{{ asset('assets/images/training-image-03.JPG') }}" alt="Third Class" />
                             <h4>Ruang Kelas</h4>
                             <p>
                                 4 Ruang kelas penunjang kegiatan belajar
@@ -211,10 +187,7 @@
                             </p>
                         </article>
                         <article id="tabs-4">
-                            <img
-                                src="{{ asset('assets/images/training-image-04.jpg')}}"
-                                alt="Fourth Training"
-                            />
+                            <img src="{{ asset('assets/images/training-image-04.jpg') }}" alt="Fourth Training" />
                             <h4>Ruang Makan</h4>
                             <p>
                                 1 ruang makan untuk para siswa magang dengan
@@ -222,10 +195,7 @@
                             </p>
                         </article>
                         <article id="tabs-5">
-                            <img
-                                src="{{ asset('assets/images/training-image-04.jpg')}}"
-                                alt="Fourth Training"
-                            />
+                            <img src="{{ asset('assets/images/training-image-04.jpg') }}" alt="Fourth Training" />
                             <h4>Kamar Tidur</h4>
                             <p>
                                 Asrama khusus laki-laki dengan kapasitas
@@ -233,10 +203,7 @@
                             </p>
                         </article>
                         <article id="tabs-6">
-                            <img
-                                src="{{ asset('assets/images/training-image-04.jpg')}}"
-                                alt="Fourth Training"
-                            />
+                            <img src="{{ asset('assets/images/training-image-04.jpg') }}" alt="Fourth Training" />
                             <h4>Lapangan Olahraga</h4>
                             <p>
                                 Lapangan olahraga untuk melatih fisik dan
@@ -261,158 +228,80 @@
                             Total Siswa Berangkat <strong>907</strong> orang
                         </p>
                         <div class="progress" style="height: 20px">
-                            <div
-                                class="progress-bar progress-bar-striped progress-bar-animated"
-                                role="progressbar"
-                                aria-valuenow="77"
-                                aria-valuemin="0"
-                                aria-valuemax="907"
-                                style="width: 77%"
-                            ></div>
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                aria-valuenow="77" aria-valuemin="0" aria-valuemax="907" style="width: 77%"></div>
                             Iron Working : 77,84%
                         </div>
                         <p></p>
                         <div class="progress" style="height: 20px">
-                            <div
-                                class="progress-bar progress-bar-striped progress-bar-animated"
-                                role="progressbar"
-                                aria-valuenow="10"
-                                aria-valuemin="0"
-                                aria-valuemax="907"
-                                style="width: 10%"
-                            ></div>
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                aria-valuenow="10" aria-valuemin="0" aria-valuemax="907" style="width: 10%"></div>
                             Casting : 9,15%
                         </div>
                         <p></p>
                         <div class="progress" style="height: 20px">
-                            <div
-                                class="progress-bar progress-bar-striped progress-bar-animated"
-                                role="progressbar"
-                                aria-valuenow="5"
-                                aria-valuemin="0"
-                                aria-valuemax="907"
-                                style="width: 5%"
-                            ></div>
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                aria-valuenow="5" aria-valuemin="0" aria-valuemax="907" style="width: 5%"></div>
                             Machining : 2,76%
                         </div>
                         <p></p>
                         <div class="progress" style="height: 20px">
-                            <div
-                                class="progress-bar progress-bar-striped progress-bar-animated"
-                                role="progressbar"
-                                aria-valuenow="4"
-                                aria-valuemin="0"
-                                aria-valuemax="907"
-                                style="width: 4%"
-                            ></div>
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                aria-valuenow="4" aria-valuemin="0" aria-valuemax="907" style="width: 4%"></div>
                             Painting : 2,21%
                         </div>
                         <p></p>
                         <div class="progress" style="height: 20px">
-                            <div
-                                class="progress-bar progress-bar-striped progress-bar-animated"
-                                role="progressbar"
-                                aria-valuenow="4"
-                                aria-valuemin="0"
-                                aria-valuemax="907"
-                                style="width: 4%"
-                            ></div>
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                aria-valuenow="4" aria-valuemin="0" aria-valuemax="907" style="width: 4%"></div>
                             Factory Metal Sheet Work : 2,21%
                         </div>
                         <p></p>
                         <div class="progress" style="height: 20px">
-                            <div
-                                class="progress-bar progress-bar-striped progress-bar-animated"
-                                role="progressbar"
-                                aria-valuenow="3"
-                                aria-valuemin="0"
-                                aria-valuemax="907"
-                                style="width: 3%"
-                            ></div>
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                aria-valuenow="3" aria-valuemin="0" aria-valuemax="907" style="width: 3%"></div>
                             Electroplating : 1,54%
                         </div>
                         <p></p>
                         <div class="progress" style="height: 20px">
-                            <div
-                                class="progress-bar progress-bar-striped progress-bar-animated"
-                                role="progressbar"
-                                aria-valuenow="2"
-                                aria-valuemin="0"
-                                aria-valuemax="907"
-                                style="width: 2%"
-                            ></div>
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                aria-valuenow="2" aria-valuemin="0" aria-valuemax="907" style="width: 2%"></div>
                             Scaffolding : 1,21%
                         </div>
                         <p></p>
                         <div class="progress" style="height: 20px">
-                            <div
-                                class="progress-bar progress-bar-striped progress-bar-animated"
-                                role="progressbar"
-                                aria-valuenow="2"
-                                aria-valuemin="0"
-                                aria-valuemax="907"
-                                style="width: 2%"
-                            ></div>
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                aria-valuenow="2" aria-valuemin="0" aria-valuemax="907" style="width: 2%"></div>
                             Ready-Made Meal Manufactoring Work : 0,99%
                         </div>
                         <p></p>
                         <div class="progress" style="height: 20px">
-                            <div
-                                class="progress-bar progress-bar-striped progress-bar-animated"
-                                role="progressbar"
-                                aria-valuenow="1"
-                                aria-valuemin="0"
-                                aria-valuemax="907"
-                                style="width: 1%"
-                            ></div>
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                aria-valuenow="1" aria-valuemin="0" aria-valuemax="907" style="width: 1%"></div>
                             Application Of Construction Equipment : 0,66%
                         </div>
                         <p></p>
                         <div class="progress" style="height: 20px">
-                            <div
-                                class="progress-bar progress-bar-striped progress-bar-animated"
-                                role="progressbar"
-                                aria-valuenow="1"
-                                aria-valuemin="0"
-                                aria-valuemax="907"
-                                style="width: 1%"
-                            ></div>
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                aria-valuenow="1" aria-valuemin="0" aria-valuemax="907" style="width: 1%"></div>
                             Welding : 0,22%
                         </div>
                         <p></p>
                         <div class="progress" style="height: 20px">
-                            <div
-                                class="progress-bar progress-bar-striped progress-bar-animated"
-                                role="progressbar"
-                                aria-valuenow="1"
-                                aria-valuemin="0"
-                                aria-valuemax="907"
-                                style="width: 1%"
-                            ></div>
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                aria-valuenow="1" aria-valuemin="0" aria-valuemax="907" style="width: 1%"></div>
                             Fish Paste Making : 0,22%
                         </div>
                         <p></p>
                         <div class="progress" style="height: 20px">
-                            <div
-                                class="progress-bar progress-bar-striped progress-bar-animated"
-                                role="progressbar"
-                                aria-valuenow="1"
-                                aria-valuemin="0"
-                                aria-valuemax="907"
-                                style="width: 1%"
-                            ></div>
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                aria-valuenow="1" aria-valuemin="0" aria-valuemax="907" style="width: 1%"></div>
                             Reinforcing Bar Construction : 0,22%
                         </div>
                         <p></p>
                         <div class="progress" style="height: 20px">
-                            <div
-                                class="progress-bar progress-bar-striped progress-bar-animated"
-                                role="progressbar"
-                                aria-valuenow="1"
-                                aria-valuemin="0"
-                                aria-valuemax="907"
-                                style="width: 1%"
-                            ></div>
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                aria-valuenow="1" aria-valuemin="0" aria-valuemax="907" style="width: 1%"></div>
                             Finishing Work : 0,11%
                         </div>
                     </div>
@@ -429,10 +318,7 @@
                 <div class="col-lg-6 offset-lg-3">
                     <div class="section-heading">
                         <h2>Instruktur <em>Berpengalaman</em></h2>
-                        <img
-                            src="{{ asset('assets/images/line-dec.png')}}"
-                            alt=""
-                        />
+                        <img src="{{ asset('assets/images/line-dec.png') }}" alt="" />
                         <p>Under Construction</p>
                     </div>
                 </div>
@@ -441,10 +327,7 @@
                 <div class="col-lg-4">
                     <div class="trainer-item">
                         <div class="image-thumb">
-                            <img
-                                src="{{ asset('assets/images/first-trainer.jpg')}}"
-                                alt=""
-                            />
+                            <img src="{{ asset('assets/images/first-trainer.jpg') }}" alt="" />
                         </div>
                         <div class="down-content">
                             <span>Sensei</span>
@@ -452,24 +335,16 @@
                             <p>Under Construction</p>
                             <ul class="social-icons">
                                 <li>
-                                    <a href="#"
-                                        ><i class="fa fa-facebook"></i
-                                    ></a>
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#"
-                                        ><i class="fa fa-twitter"></i
-                                    ></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#"
-                                        ><i class="fa fa-linkedin"></i
-                                    ></a>
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#"
-                                        ><i class="fa fa-behance"></i
-                                    ></a>
+                                    <a href="#"><i class="fa fa-behance"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -478,10 +353,7 @@
                 <div class="col-lg-4">
                     <div class="trainer-item">
                         <div class="image-thumb">
-                            <img
-                                src="{{ asset('assets/images/second-trainer.jpg')}}"
-                                alt=""
-                            />
+                            <img src="{{ asset('assets/images/second-trainer.jpg') }}" alt="" />
                         </div>
                         <div class="down-content">
                             <span>Sensei</span>
@@ -489,24 +361,16 @@
                             <p>Under Construction</p>
                             <ul class="social-icons">
                                 <li>
-                                    <a href="#"
-                                        ><i class="fa fa-facebook"></i
-                                    ></a>
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#"
-                                        ><i class="fa fa-twitter"></i
-                                    ></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#"
-                                        ><i class="fa fa-linkedin"></i
-                                    ></a>
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#"
-                                        ><i class="fa fa-behance"></i
-                                    ></a>
+                                    <a href="#"><i class="fa fa-behance"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -515,10 +379,7 @@
                 <div class="col-lg-4">
                     <div class="trainer-item">
                         <div class="image-thumb">
-                            <img
-                                src="{{ asset('assets/images/third-trainer.jpg')}}"
-                                alt=""
-                            />
+                            <img src="{{ asset('assets/images/third-trainer.jpg') }}" alt="" />
                         </div>
                         <div class="down-content">
                             <span>Sensei</span>
@@ -526,24 +387,16 @@
                             <p>Under Construction</p>
                             <ul class="social-icons">
                                 <li>
-                                    <a href="#"
-                                        ><i class="fa fa-facebook"></i
-                                    ></a>
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#"
-                                        ><i class="fa fa-twitter"></i
-                                    ></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#"
-                                        ><i class="fa fa-linkedin"></i
-                                    ></a>
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#"
-                                        ><i class="fa fa-behance"></i
-                                    ></a>
+                                    <a href="#"><i class="fa fa-behance"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -561,10 +414,7 @@
                 <div class="col-lg-6 offset-lg-3">
                     <div class="section-heading">
                         <h2>jenis <em>kerja</em></h2>
-                        <img
-                            src="{{ asset('assets/images/line-dec.png')}}"
-                            alt="waves"
-                        />
+                        <img src="{{ asset('assets/images/line-dec.png') }}" alt="waves" />
                         <p>
                             Lorem, ipsum dolor sit amet consectetur
                             adipisicing elit. Aliquid officiis magni quo,
@@ -579,9 +429,9 @@
                         <li class="feature-item">
                             <div class="left-icon">
                                 <!-- <img
-                                    src="assets/images/features-first-icon.png"
-                                    alt="First One"
-                                /> -->
+                                        src="assets/images/features-first-icon.png"
+                                        alt="First One"
+                                    /> -->
                             </div>
                             <div class="right-content">
                                 <h4>Iron Working</h4>
@@ -711,10 +561,7 @@
                 <div class="col-lg-6 offset-lg-3">
                     <div class="section-heading">
                         <h2>program <em>belajar</em></h2>
-                        <img
-                            src="{{ asset('assets/images/line-dec.png')}}"
-                            alt=""
-                        />
+                        <img src="{{ asset('assets/images/line-dec.png') }}" alt="" />
                         <p>
                             Lorem ipsum dolor sit amet, consectetur
                             adipisicing elit. Culpa, facilis totam dolore
@@ -738,20 +585,15 @@
                             <a href="#tabs-9">Pengetahuan Magang</a>
                         </li>
                         <li>
-                            <a href="#tabs-10"
-                                >FMD (Fisik, Mental, Disiplin &amp; Wawasan
-                                Kebangsaan)</a
-                            >
+                            <a href="#tabs-10">FMD (Fisik, Mental, Disiplin &amp; Wawasan
+                                Kebangsaan)</a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-lg-8">
                     <section class="tabs-content">
                         <article id="tabs-7">
-                            <img
-                                src="{{ asset('assets/images/training-image-01.JPG')}}"
-                                alt="First Class"
-                            />
+                            <img src="{{ asset('assets/images/training-image-01.JPG') }}" alt="First Class" />
                             <h4>Bahasa Jepang</h4>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur
@@ -763,10 +605,7 @@
                             </p>
                         </article>
                         <article id="tabs-8">
-                            <img
-                                src="{{ asset('assets/images/training-image-02.JPG')}}"
-                                alt="Second Training"
-                            />
+                            <img src="{{ asset('assets/images/training-image-02.JPG') }}" alt="Second Training" />
                             <h4>Pengetahuan Hidup di Jepang</h4>
                             <p>
                                 Integer dapibus, est vel dapibus mattis, sem
@@ -780,10 +619,7 @@
                             </p>
                         </article>
                         <article id="tabs-9">
-                            <img
-                                src="{{ asset('assets/images/training-image-03.JPG')}}"
-                                alt="Third Class"
-                            />
+                            <img src="{{ asset('assets/images/training-image-03.JPG') }}" alt="Third Class" />
                             <h4>Pengetahuan Magang</h4>
                             <p>
                                 Fusce laoreet malesuada rhoncus. Donec
@@ -796,10 +632,7 @@
                             </p>
                         </article>
                         <article id="tabs-10">
-                            <img
-                                src="{{ asset('assets/images/training-image-04.jpg')}}"
-                                alt="Fourth Training"
-                            />
+                            <img src="{{ asset('assets/images/training-image-04.jpg') }}" alt="Fourth Training" />
                             <h4>
                                 FMD (Fisik, Mental, Disiplin &amp; Wawasan
                                 Kebangsaan)
@@ -825,10 +658,7 @@
                 <div class="col-lg-6 offset-lg-3">
                     <div class="section-heading dark-bg">
                         <h2>kegiatan <em>belajar</em></h2>
-                        <img
-                            src="{{ asset('assets/images/line-dec.png')}}"
-                            alt=""
-                        />
+                        <img src="{{ asset('assets/images/line-dec.png') }}" alt="" />
                         <p>
                             Kegiatan belajar selama 5 bulan (20 minggu)
                             kurang lebih 1.015 jam yang meliputi :
@@ -872,67 +702,36 @@
                             <tbody>
                                 <tr>
                                     <td class="day-time">Bahasa Jepang</td>
-                                    <td
-                                        class="monday ts-item show"
-                                        data-tsmeta="monday"
-                                    ></td>
-                                    <td
-                                        class="tuesday ts-item"
-                                        data-tsmeta="tuesday"
-                                    ></td>
+                                    <td class="monday ts-item show" data-tsmeta="monday"></td>
+                                    <td class="tuesday ts-item" data-tsmeta="tuesday"></td>
                                     <td>Habib Sensei</td>
                                 </tr>
                                 <tr>
                                     <td class="day-time">
                                         Pengetahuan Hidup di Jepang
                                     </td>
-                                    <td
-                                        class="friday ts-item"
-                                        data-tsmeta="friday"
-                                    ></td>
-                                    <td
-                                        class="thursday friday ts-item"
-                                        data-tsmeta="thursday"
-                                        data-tsmeta="friday"
-                                    ></td>
+                                    <td class="friday ts-item" data-tsmeta="friday"></td>
+                                    <td class="thursday friday ts-item" data-tsmeta="thursday" data-tsmeta="friday"></td>
                                     <td>Lili Sensei</td>
                                 </tr>
                                 <tr>
                                     <td class="day-time">
                                         Pengetahuan Magang
                                     </td>
-                                    <td
-                                        class="tuesday ts-item"
-                                        data-tsmeta="tuesday"
-                                    ></td>
-                                    <td
-                                        class="monday ts-item show"
-                                        data-tsmeta="monday"
-                                    ></td>
+                                    <td class="tuesday ts-item" data-tsmeta="tuesday"></td>
+                                    <td class="monday ts-item show" data-tsmeta="monday"></td>
                                     <td>Nana Sensei</td>
                                 </tr>
                                 <tr>
                                     <td class="day-time">Olahraga</td>
-                                    <td
-                                        class="wednesday ts-item"
-                                        data-tsmeta="wednesday"
-                                    ></td>
-                                    <td
-                                        class="friday ts-item"
-                                        data-tsmeta="friday"
-                                    ></td>
+                                    <td class="wednesday ts-item" data-tsmeta="wednesday"></td>
+                                    <td class="friday ts-item" data-tsmeta="friday"></td>
                                     <td>Eko Sensei</td>
                                 </tr>
                                 <tr>
                                     <td class="day-time">Religi</td>
-                                    <td
-                                        class="thursday ts-item"
-                                        data-tsmeta="thursday"
-                                    ></td>
-                                    <td
-                                        class="wednesday ts-item"
-                                        data-tsmeta="wednesday"
-                                    ></td>
+                                    <td class="thursday ts-item" data-tsmeta="thursday"></td>
+                                    <td class="wednesday ts-item" data-tsmeta="wednesday"></td>
                                     <td>Bpk. Hadi</td>
                                 </tr>
                             </tbody>
@@ -950,38 +749,20 @@
                 <div class="col-lg-6 offset-lg-3">
                     <div class="section-heading">
                         <h2>Pertanyaan Yang <em>Sering Diajukan</em></h2>
-                        <img
-                            src="{{ asset('assets/images/line-dec.png')}}"
-                            alt=""
-                        />
+                        <img src="{{ asset('assets/images/line-dec.png') }}" alt="" />
 
-                        <div
-                            class="accordion accordion-flush"
-                            id="accordionFlushExample"
-                        >
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
                             <div class="accordion-item">
-                                <h2
-                                    class="accordion-header"
-                                    id="flush-headingOne"
-                                >
-                                    <button
-                                        class="accordion-button collapsed"
-                                        type="button"
-                                        data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseOne"
-                                        aria-expanded="true"
-                                        aria-controls="flush-collapseOne"
-                                    >
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="true"
+                                        aria-controls="flush-collapseOne">
                                         A. Persyaratan Apa Yang Dibutuhkan
                                         Untuk Mendaftar ?
                                     </button>
                                 </h2>
-                                <div
-                                    id="flush-collapseOne"
-                                    class="accordion-collapse collapse"
-                                    aria-labelledby="flush-headingOne"
-                                    data-bs-parent="#accordionFlushExample"
-                                >
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
                                         <ol>
                                             <li>
@@ -1067,48 +848,32 @@
                                         </ol>
 
                                         <p>
-                                            <i
-                                                >* Untuk memastikan
+                                            <i>* Untuk memastikan
                                                 lowongan-lowongan yang
                                                 tersedia, silahkan lihat di
                                                 laman Facebook dan Instagram
-                                                Mitra Jaya Indonesia.</i
-                                            >
+                                                Mitra Jaya Indonesia.</i>
                                         </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <h2
-                                    class="accordion-header"
-                                    id="flush-heading1"
-                                >
-                                    <button
-                                        class="accordion-button collapsed"
-                                        type="button"
-                                        data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapse1"
-                                        aria-expanded="true"
-                                        aria-controls="flush-collapse1"
-                                    >
+                                <h2 class="accordion-header" id="flush-heading1">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapse1" aria-expanded="true"
+                                        aria-controls="flush-collapse1">
                                         B. Bagaimana Cara Mendaftar Di Mitra
                                         Jaya Indonesia ?
                                     </button>
                                 </h2>
-                                <div
-                                    id="flush-collapse1"
-                                    class="accordion-collapse collapse"
-                                    aria-labelledby="flush-heading1"
-                                    data-bs-parent="#accordionFlushExample"
-                                >
+                                <div id="flush-collapse1" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-heading1" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
                                         <ol>
                                             <li>
                                                 Cara mendaftar di
-                                                <strong
-                                                    >LPK Mitra Jaya
-                                                    Indonesia</strong
-                                                >
+                                                <strong>LPK Mitra Jaya
+                                                    Indonesia</strong>
                                                 cukup mudah dan dapat
                                                 dilakukan dimana saja, yaitu
                                                 dilakukan secara Online
@@ -1127,10 +892,8 @@
                                             <li>
                                                 Bisa datang langsung ke
                                                 kantor
-                                                <strong
-                                                    >LPK Mitra Jaya
-                                                    Indonesia</strong
-                                                >
+                                                <strong>LPK Mitra Jaya
+                                                    Indonesia</strong>
                                                 Magelang
                                             </li>
                                         </ol>
@@ -1138,28 +901,16 @@
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <h2
-                                    class="accordion-header"
-                                    id="flush-heading2"
-                                >
-                                    <button
-                                        class="accordion-button collapsed"
-                                        type="button"
-                                        data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapse2"
-                                        aria-expanded="true"
-                                        aria-controls="flush-collapse2"
-                                    >
+                                <h2 class="accordion-header" id="flush-heading2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapse2" aria-expanded="true"
+                                        aria-controls="flush-collapse2">
                                         C. Prosedur Atau Persyaratan Apa
                                         Saja Yang Diperlukan ?
                                     </button>
                                 </h2>
-                                <div
-                                    id="flush-collapse2"
-                                    class="accordion-collapse collapse"
-                                    aria-labelledby="flush-heading2"
-                                    data-bs-parent="#accordionFlushExample"
-                                >
+                                <div id="flush-collapse2" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-heading2" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
                                         <ol>
                                             <li>
@@ -1167,10 +918,8 @@
                                                 mengikuti Program Pemagangan
                                                 telah dijelaskan dalam
                                                 halaman
-                                                <strong
-                                                    >LPK Mitra Jaya
-                                                    Indonesia</strong
-                                                >. Secara umum adalah
+                                                <strong>LPK Mitra Jaya
+                                                    Indonesia</strong>. Secara umum adalah
                                                 berusia minimal 19.5 tahun,
                                                 belum pernah mengikuti atau
                                                 mengajukan dokumen Program
@@ -1212,28 +961,16 @@
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <h2
-                                    class="accordion-header"
-                                    id="flush-heading3"
-                                >
-                                    <button
-                                        class="accordion-button collapsed"
-                                        type="button"
-                                        data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapse3"
-                                        aria-expanded="true"
-                                        aria-controls="flush-collapse3"
-                                    >
+                                <h2 class="accordion-header" id="flush-heading3">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapse3" aria-expanded="true"
+                                        aria-controls="flush-collapse3">
                                         D. Berapa biaya yang harus
                                         dipersiapkan ?
                                     </button>
                                 </h2>
-                                <div
-                                    id="flush-collapse3"
-                                    class="accordion-collapse collapse"
-                                    aria-labelledby="flush-heading3"
-                                    data-bs-parent="#accordionFlushExample"
-                                >
+                                <div id="flush-collapse3" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-heading3" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
                                         <ul>
                                             <li>
@@ -1254,27 +991,15 @@
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <h2
-                                    class="accordion-header"
-                                    id="flush-heading4"
-                                >
-                                    <button
-                                        class="accordion-button collapsed"
-                                        type="button"
-                                        data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapse4"
-                                        aria-expanded="true"
-                                        aria-controls="flush-collapse4"
-                                    >
+                                <h2 class="accordion-header" id="flush-heading4">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapse4" aria-expanded="true"
+                                        aria-controls="flush-collapse4">
                                         E. Lowongan apa saja yang tersedia ?
                                     </button>
                                 </h2>
-                                <div
-                                    id="flush-collapse4"
-                                    class="accordion-collapse collapse"
-                                    aria-labelledby="flush-heading4"
-                                    data-bs-parent="#accordionFlushExample"
-                                >
+                                <div id="flush-collapse4" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-heading4" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
                                         <ol>
                                             <li>
@@ -1291,38 +1016,24 @@
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <h2
-                                    class="accordion-header"
-                                    id="flush-heading5"
-                                >
-                                    <button
-                                        class="accordion-button collapsed"
-                                        type="button"
-                                        data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapse5"
-                                        aria-expanded="true"
-                                        aria-controls="flush-collapse5"
-                                    >
+                                <h2 class="accordion-header" id="flush-heading5">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapse5" aria-expanded="true"
+                                        aria-controls="flush-collapse5">
                                         F. Berapa lama Pendidikan di LPK
                                         Mitra Jaya Indonesia, dan
                                         fasilitas-fasilitas apa saja yang
                                         akan didapatkan ?
                                     </button>
                                 </h2>
-                                <div
-                                    id="flush-collapse5"
-                                    class="accordion-collapse collapse"
-                                    aria-labelledby="flush-heading5"
-                                    data-bs-parent="#accordionFlushExample"
-                                >
+                                <div id="flush-collapse5" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-heading5" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
                                         <ol>
                                             <li>
                                                 Pendidikan di
-                                                <strong
-                                                    >LPK Mitra Jaya
-                                                    Indonesia</strong
-                                                >
+                                                <strong>LPK Mitra Jaya
+                                                    Indonesia</strong>
                                                 selama 5 sampai dengan 6
                                                 bulan, disesuaikan dengan
                                                 permohonan dari User di
@@ -1344,29 +1055,17 @@
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <h2
-                                    class="accordion-header"
-                                    id="flush-heading6"
-                                >
-                                    <button
-                                        class="accordion-button collapsed"
-                                        type="button"
-                                        data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapse6"
-                                        aria-expanded="true"
-                                        aria-controls="flush-collapse6"
-                                    >
+                                <h2 class="accordion-header" id="flush-heading6">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapse6" aria-expanded="true"
+                                        aria-controls="flush-collapse6">
                                         G. Apakah LPK Mitra Jaya Indonesia
                                         bisa menjamin pasti berangkat ke
                                         Jepang ?
                                     </button>
                                 </h2>
-                                <div
-                                    id="flush-collapse6"
-                                    class="accordion-collapse collapse"
-                                    aria-labelledby="flush-heading6"
-                                    data-bs-parent="#accordionFlushExample"
-                                >
+                                <div id="flush-collapse6" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-heading6" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
                                         <ol>
                                             <li>
@@ -1382,10 +1081,8 @@
                                             <li>
                                                 Namun, pihak User Jepang
                                                 atau
-                                                <strong
-                                                    >LPK Mitra Jaya
-                                                    Indonesia</strong
-                                                >
+                                                <strong>LPK Mitra Jaya
+                                                    Indonesia</strong>
                                                 juga dapat membatalkan, jika
                                                 calon Pemagang melanggar
                                                 peraturan, dinilai tidak
@@ -1403,77 +1100,47 @@
                         </div>
                     </div>
                 </div>
-                <h2 style="text-align: center;font-size: large;">Tidak menemukan jawaban? Tinggalkan pesan disini, admin akan menjawab pertanyaan anda.</h2>
+                <h2 style="text-align: center;font-size: large;">Tidak menemukan jawaban? Tinggalkan pesan disini, admin
+                    akan menjawab pertanyaan anda.</h2>
                 <div class="row mt-5 justify-content-center">
-                <div class="col-lg-10">
-                    <form
-                        action="forms/contact.php"
-                        method="post"
-                        role="form"
-                        class="php-email-form"
-                    >
-                        <div class="row">
-                            <div class="col-md-6 form-group">
-                                <input
-                                    type="text"
-                                    name="name"
-                                    class="form-control"
-                                    id="name"
-                                    placeholder="Your Name"
-                                    required
-                                />
+                    <div class="col-lg-10">
+                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <input type="text" name="name" class="form-control" id="name"
+                                        placeholder="Your Name" required />
+                                </div>
+                                <div class="col-md-6 form-group mt-3 mt-md-0">
+                                    <input type="email" class="form-control" name="email" id="email"
+                                        placeholder="Your Email" required />
+                                </div>
                             </div>
-                            <div class="col-md-6 form-group mt-3 mt-md-0">
-                                <input
-                                    type="email"
-                                    class="form-control"
-                                    name="email"
-                                    id="email"
-                                    placeholder="Your Email"
-                                    required
-                                />
+                            <div class="form-group mt-3">
+                                <input type="text" class="form-control" name="subject" id="subject"
+                                    placeholder="Subject" required />
                             </div>
-                        </div>
-                        <div class="form-group mt-3">
-                            <input
-                                type="text"
-                                class="form-control"
-                                name="subject"
-                                id="subject"
-                                placeholder="Subject"
-                                required
-                            />
-                        </div>
-                        <div class="form-group mt-3">
-                            <textarea
-                                class="form-control"
-                                name="message"
-                                rows="5"
-                                placeholder="Message"
-                                required
-                            ></textarea>
-                        </div>
-                        <div class="text-center">
-                            <button type="submit" style="border-radius: 10px; background-color: goldenrod;">Send Message</button>
-                        </div>
-                    </form>
+                            <div class="form-group mt-3">
+                                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" style="border-radius: 10px; background-color: goldenrod;">Send
+                                    Message</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-            </div>
             </div>
         </div>
     </section>
     <!-- Pertanyaan Yang Sering di Ajukan End -->
 
-   <!-- Contact Section -->
-   <section id="contact-us" class="section">
+    <!-- Contact Section -->
+    <section id="contact-us" class="section">
         <div class="container">
             <div class="row no-gutters justify-content-center">
-                <iframe
-                    style="border: 0; width: 100%; height: 270px"
+                <iframe style="border: 0; width: 100%; height: 270px"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.722310157253!2d110.20713311002598!3d-7.495879873900101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a8f12a8f5acd3%3A0x569c3f8c542dc94d!2sLPK%20Mitra%20Jaya%20Indonesia%20New!5e0!3m2!1sen!2sid!4v1709741653610!5m2!1sen!2sid"
-                    frameborder="0"
-                    allowfullscreen
-                ></iframe>
+                    frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
     </section>
