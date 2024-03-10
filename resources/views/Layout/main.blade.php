@@ -59,8 +59,8 @@
                                     clas="{{ request()->segment('2') == 'ap2ln' ? 'active' : '' }}">AP2LN</a>
                             </li>
                             <li class="nav-item">
-                                <a href="{{ url('students') }}"
-                                    clas="{{ request()->segment('3') == 'students' ? 'active' : '' }}">Siswa</a>
+                                <a href="{{ url('informasi') }}"
+                                    clas="{{ request()->segment('3') == 'informasi' ? 'active' : '' }}">informasi</a>
                             </li>
                             <li class="nav-item">
                                 <a href="{{ url('karir') }}"
@@ -95,8 +95,8 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-info">
-                            <h3>LPK Mitra Jaya Indonesia</h3>
-                            <p>
+                            <h3 style="text-align: left">LPK Mitra Jaya Indonesia</h3>
+                            <p style="text-align: left">
                                 Jl. Sunan Kalijaga IIIA <br />
                                 Jurang Ombo Selatan, Kota Magelang<br /><br />
                                 <strong>Phone:</strong> +622933196196<br />
@@ -114,7 +114,7 @@
                     </div>
 
                     <div class="col-lg-2 col-md-6 footer-links">
-                        <h4>Useful Links</h4>
+                        <h4 style="text-align: left">Useful Links</h4>
                         <ul>
                             <li>
                                 <i class="bx bx-chevron-right"></i>
@@ -140,7 +140,7 @@
                     </div>
 
                     <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Our Services</h4>
+                        <h4 style="text-align: left">Our Services</h4>
                         <ul>
                             <li>
                                 <i class="bx bx-chevron-right"></i>

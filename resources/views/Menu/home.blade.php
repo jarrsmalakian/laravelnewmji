@@ -131,14 +131,12 @@
     </section>
     <!-- ***** Features Item End ***** -->
 
-    <section class="section" id="our-classes" style="background-color: rgb(232, 236, 235);">
+    <section class="section" id="our-classes" style="background-color: rgb(237, 250, 247);">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 offset-lg-3">
-                    <div class="section-heading">
-                        <h2>fasilitas</h2>
-                        <img src="{{ asset('assets/images/line-dec.png') }}" alt="" />
-                    </div>
+                <div class="section-heading">
+                    <h2>fasilitas</h2>
+                    <img src="{{ asset('assets/images/line-dec.png') }}" />
                 </div>
             </div>
             <div class="row" id="tabs">
@@ -429,9 +427,9 @@
                         <li class="feature-item">
                             <div class="left-icon">
                                 <!-- <img
-                                        src="assets/images/features-first-icon.png"
-                                        alt="First One"
-                                    /> -->
+                                                                                                        src="assets/images/features-first-icon.png"
+                                                                                                        alt="First One"
+                                                                                                    /> -->
                             </div>
                             <div class="right-content">
                                 <h4>Iron Working</h4>
@@ -746,390 +744,388 @@
     <section class="section" id="trainers">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 offset-lg-3">
-                    <div class="section-heading">
-                        <h2>Pertanyaan Yang <em>Sering Diajukan</em></h2>
-                        <img src="{{ asset('assets/images/line-dec.png') }}" alt="" />
+                <div class="section-heading">
+                    <h2>Pertanyaan Yang <em>Sering Diajukan</em></h2>
+                    <img src="{{ asset('assets/images/line-dec.png') }}" alt="" />
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="true"
+                                    aria-controls="flush-collapseOne">
+                                    A. Persyaratan Apa Yang Dibutuhkan
+                                    Untuk Mendaftar ?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <ol>
+                                        <li>
+                                            Usia minimal 19,5 tahun dan
+                                            maksimal 26 tahun sesuai
+                                            persyaratan User.
+                                        </li>
+                                        <li>
+                                            Pendidikan minimal SMA, SMK,
+                                            MA, Paket C atau yang setara
+                                            (kecuali dipersyaratkan
+                                            User).
+                                        </li>
+                                        <li>
+                                            Tinggi badan minimal 162 cm
+                                            bagi pria dan minimal 155 cm
+                                            bagi wanita (kecuali
+                                            dipersyaratkan User).
+                                        </li>
+                                        <li>
+                                            Berat badan proporsional,
+                                            maksimal 78 kg.
+                                        </li>
+                                        <li>
+                                            Sehat Jasmani dan Rohani.
+                                        </li>
+                                        <li>
+                                            Penglihatan normal dan tidak
+                                            buta warna, minus mata
+                                            maksimal -0,25 (kecuali ada
+                                            yang diperbolehkan memakai
+                                            kaca mata oleh pihak User).
+                                        </li>
+                                        <li>
+                                            Dalam kondisi sehat, tidak
+                                            pernah menderita
+                                            penyakit-penyakit seperti
+                                            sakit pinggang, migrain,
+                                            tekanan darah tinggi,
+                                            penyakit jantung, TBC,
+                                            hepatitis, dan lain-lain
+                                            yang kemungkinan dapat
+                                            mengganggu dalam proses
+                                            Pendidikan dan Pemagangan
+                                            nantinya.
+                                        </li>
+                                        <li>
+                                            Belum pernah mengajukan atau
+                                            mengikuti Program Pemagangan
+                                            ke Jepang maupun Program
+                                            lainnya ke Jepang, atau
+                                            tidak pernah tersangkut
+                                            masalah dengan keimigrasian
+                                            Indonesia dan Jepang.
+                                        </li>
+                                        <li>
+                                            Memiliki semua kelengkapan
+                                            dokumen dan tidak
+                                            bermasalah, seperti KTP, KK,
+                                            Akte Kelahiran, Ijasah
+                                            Pendidikan terakhir.
+                                            (pastikan eja’an nama sama
+                                            semua)
+                                        </li>
+                                        <li>
+                                            Jujur dan tidak sedang
+                                            terikat dengan LPK (Lembaga
+                                            Pendidikan Ketrampilan)
+                                            manapun.
+                                        </li>
+                                        <li>
+                                            Telah memahami dan
+                                            menyetujui semua proses
+                                            Pendidikan dan Pemagangan.
+                                        </li>
+                                        <li>
+                                            Telah mendapat ijin
+                                            mengikuti Pendidikan dan
+                                            Program Pemagangan dari
+                                            pihak orang tua dan
+                                            keluarga.
+                                        </li>
+                                    </ol>
 
-                        <div class="accordion accordion-flush" id="accordionFlushExample">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="flush-headingOne">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseOne" aria-expanded="true"
-                                        aria-controls="flush-collapseOne">
-                                        A. Persyaratan Apa Yang Dibutuhkan
-                                        Untuk Mendaftar ?
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseOne" class="accordion-collapse collapse"
-                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">
-                                        <ol>
-                                            <li>
-                                                Usia minimal 19,5 tahun dan
-                                                maksimal 26 tahun sesuai
-                                                persyaratan User.
-                                            </li>
-                                            <li>
-                                                Pendidikan minimal SMA, SMK,
-                                                MA, Paket C atau yang setara
-                                                (kecuali dipersyaratkan
-                                                User).
-                                            </li>
-                                            <li>
-                                                Tinggi badan minimal 162 cm
-                                                bagi pria dan minimal 155 cm
-                                                bagi wanita (kecuali
-                                                dipersyaratkan User).
-                                            </li>
-                                            <li>
-                                                Berat badan proporsional,
-                                                maksimal 78 kg.
-                                            </li>
-                                            <li>
-                                                Sehat Jasmani dan Rohani.
-                                            </li>
-                                            <li>
-                                                Penglihatan normal dan tidak
-                                                buta warna, minus mata
-                                                maksimal -0,25 (kecuali ada
-                                                yang diperbolehkan memakai
-                                                kaca mata oleh pihak User).
-                                            </li>
-                                            <li>
-                                                Dalam kondisi sehat, tidak
-                                                pernah menderita
-                                                penyakit-penyakit seperti
-                                                sakit pinggang, migrain,
-                                                tekanan darah tinggi,
-                                                penyakit jantung, TBC,
-                                                hepatitis, dan lain-lain
-                                                yang kemungkinan dapat
-                                                mengganggu dalam proses
-                                                Pendidikan dan Pemagangan
-                                                nantinya.
-                                            </li>
-                                            <li>
-                                                Belum pernah mengajukan atau
-                                                mengikuti Program Pemagangan
-                                                ke Jepang maupun Program
-                                                lainnya ke Jepang, atau
-                                                tidak pernah tersangkut
-                                                masalah dengan keimigrasian
-                                                Indonesia dan Jepang.
-                                            </li>
-                                            <li>
-                                                Memiliki semua kelengkapan
-                                                dokumen dan tidak
-                                                bermasalah, seperti KTP, KK,
-                                                Akte Kelahiran, Ijasah
-                                                Pendidikan terakhir.
-                                                (pastikan eja’an nama sama
-                                                semua)
-                                            </li>
-                                            <li>
-                                                Jujur dan tidak sedang
-                                                terikat dengan LPK (Lembaga
-                                                Pendidikan Ketrampilan)
-                                                manapun.
-                                            </li>
-                                            <li>
-                                                Telah memahami dan
-                                                menyetujui semua proses
-                                                Pendidikan dan Pemagangan.
-                                            </li>
-                                            <li>
-                                                Telah mendapat ijin
-                                                mengikuti Pendidikan dan
-                                                Program Pemagangan dari
-                                                pihak orang tua dan
-                                                keluarga.
-                                            </li>
-                                        </ol>
-
-                                        <p>
-                                            <i>* Untuk memastikan
-                                                lowongan-lowongan yang
-                                                tersedia, silahkan lihat di
-                                                laman Facebook dan Instagram
-                                                Mitra Jaya Indonesia.</i>
-                                        </p>
-                                    </div>
+                                    <p>
+                                        <i>* Untuk memastikan
+                                            lowongan-lowongan yang
+                                            tersedia, silahkan lihat di
+                                            laman Facebook dan Instagram
+                                            Mitra Jaya Indonesia.</i>
+                                    </p>
                                 </div>
                             </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="flush-heading1">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapse1" aria-expanded="true"
-                                        aria-controls="flush-collapse1">
-                                        B. Bagaimana Cara Mendaftar Di Mitra
-                                        Jaya Indonesia ?
-                                    </button>
-                                </h2>
-                                <div id="flush-collapse1" class="accordion-collapse collapse"
-                                    aria-labelledby="flush-heading1" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">
-                                        <ol>
-                                            <li>
-                                                Cara mendaftar di
-                                                <strong>LPK Mitra Jaya
-                                                    Indonesia</strong>
-                                                cukup mudah dan dapat
-                                                dilakukan dimana saja, yaitu
-                                                dilakukan secara Online
-                                                dengan mendaftar di laman
-                                                ini, mengisi semua data yang
-                                                ditanyakan dalam Form
-                                                Pendaftaran secara online.
-                                            </li>
-                                            <li>
-                                                Selain itu bisa dengan
-                                                mendownload CV pendaftaran,
-                                                setelah di isi lengkap
-                                                kemudian di kirim ke email
-                                                lpkmitrajayaindonesia@yahoo.co.id
-                                            </li>
-                                            <li>
-                                                Bisa datang langsung ke
-                                                kantor
-                                                <strong>LPK Mitra Jaya
-                                                    Indonesia</strong>
-                                                Magelang
-                                            </li>
-                                        </ol>
-                                    </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-heading1">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse1" aria-expanded="true"
+                                    aria-controls="flush-collapse1">
+                                    B. Bagaimana Cara Mendaftar Di Mitra
+                                    Jaya Indonesia ?
+                                </button>
+                            </h2>
+                            <div id="flush-collapse1" class="accordion-collapse collapse"
+                                aria-labelledby="flush-heading1" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <ol>
+                                        <li>
+                                            Cara mendaftar di
+                                            <strong>LPK Mitra Jaya
+                                                Indonesia</strong>
+                                            cukup mudah dan dapat
+                                            dilakukan dimana saja, yaitu
+                                            dilakukan secara Online
+                                            dengan mendaftar di laman
+                                            ini, mengisi semua data yang
+                                            ditanyakan dalam Form
+                                            Pendaftaran secara online.
+                                        </li>
+                                        <li>
+                                            Selain itu bisa dengan
+                                            mendownload CV pendaftaran,
+                                            setelah di isi lengkap
+                                            kemudian di kirim ke email
+                                            lpkmitrajayaindonesia@yahoo.co.id
+                                        </li>
+                                        <li>
+                                            Bisa datang langsung ke
+                                            kantor
+                                            <strong>LPK Mitra Jaya
+                                                Indonesia</strong>
+                                            Magelang
+                                        </li>
+                                    </ol>
                                 </div>
                             </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="flush-heading2">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapse2" aria-expanded="true"
-                                        aria-controls="flush-collapse2">
-                                        C. Prosedur Atau Persyaratan Apa
-                                        Saja Yang Diperlukan ?
-                                    </button>
-                                </h2>
-                                <div id="flush-collapse2" class="accordion-collapse collapse"
-                                    aria-labelledby="flush-heading2" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">
-                                        <ol>
-                                            <li>
-                                                Persyaratan umum untuk
-                                                mengikuti Program Pemagangan
-                                                telah dijelaskan dalam
-                                                halaman
-                                                <strong>LPK Mitra Jaya
-                                                    Indonesia</strong>. Secara umum adalah
-                                                berusia minimal 19.5 tahun,
-                                                belum pernah mengikuti atau
-                                                mengajukan dokumen Program
-                                                Pemagangan sebelumnya, atau
-                                                tidak pernah bermasalah
-                                                dengan Imigrasi atau Hukum
-                                                di Jepang.
-                                            </li>
-                                            <li>
-                                                Selanjutnya adalah memenuhi
-                                                kriteria/persyaratan LPK
-                                                Mitra Jaya Indonesia dan
-                                                user. Izin keluarga juga
-                                                menjadi salah satu
-                                                persyaratan yang utama.
-                                            </li>
-                                            <li>
-                                                Bagi mereka yang telah
-                                                mendaftar dan dipanggil oleh
-                                                staf perekrutan kami, maka
-                                                akan mengikuti Seleksi Tahap
-                                                Pertama berupa Tes Tertulis,
-                                                Tes Fisik, Interview dan
-                                                tes-tes lainnya jika
-                                                diperlukan. Bagi mereka yang
-                                                dinyatakan lulus Seleksai
-                                                Tahap Pertama, akan
-                                                dipanggil Seleksi Tahap
-                                                Kedua dengan Matching user.
-                                                Kesiapan dokumen (fotokopi
-                                                KK, KTP, Ijasah, dsbnya)
-                                                mungkin juga akan
-                                                dipastikan, disamping
-                                                persetujuan orang tua yang
-                                                juga akan dipastikan.
-                                            </li>
-                                        </ol>
-                                    </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-heading2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse2" aria-expanded="true"
+                                    aria-controls="flush-collapse2">
+                                    C. Prosedur Atau Persyaratan Apa
+                                    Saja Yang Diperlukan ?
+                                </button>
+                            </h2>
+                            <div id="flush-collapse2" class="accordion-collapse collapse"
+                                aria-labelledby="flush-heading2" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <ol>
+                                        <li>
+                                            Persyaratan umum untuk
+                                            mengikuti Program Pemagangan
+                                            telah dijelaskan dalam
+                                            halaman
+                                            <strong>LPK Mitra Jaya
+                                                Indonesia</strong>. Secara umum adalah
+                                            berusia minimal 19.5 tahun,
+                                            belum pernah mengikuti atau
+                                            mengajukan dokumen Program
+                                            Pemagangan sebelumnya, atau
+                                            tidak pernah bermasalah
+                                            dengan Imigrasi atau Hukum
+                                            di Jepang.
+                                        </li>
+                                        <li>
+                                            Selanjutnya adalah memenuhi
+                                            kriteria/persyaratan LPK
+                                            Mitra Jaya Indonesia dan
+                                            user. Izin keluarga juga
+                                            menjadi salah satu
+                                            persyaratan yang utama.
+                                        </li>
+                                        <li>
+                                            Bagi mereka yang telah
+                                            mendaftar dan dipanggil oleh
+                                            staf perekrutan kami, maka
+                                            akan mengikuti Seleksi Tahap
+                                            Pertama berupa Tes Tertulis,
+                                            Tes Fisik, Interview dan
+                                            tes-tes lainnya jika
+                                            diperlukan. Bagi mereka yang
+                                            dinyatakan lulus Seleksai
+                                            Tahap Pertama, akan
+                                            dipanggil Seleksi Tahap
+                                            Kedua dengan Matching user.
+                                            Kesiapan dokumen (fotokopi
+                                            KK, KTP, Ijasah, dsbnya)
+                                            mungkin juga akan
+                                            dipastikan, disamping
+                                            persetujuan orang tua yang
+                                            juga akan dipastikan.
+                                        </li>
+                                    </ol>
                                 </div>
                             </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="flush-heading3">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapse3" aria-expanded="true"
-                                        aria-controls="flush-collapse3">
-                                        D. Berapa biaya yang harus
-                                        dipersiapkan ?
-                                    </button>
-                                </h2>
-                                <div id="flush-collapse3" class="accordion-collapse collapse"
-                                    aria-labelledby="flush-heading3" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">
-                                        <ul>
-                                            <li>
-                                                Pada prinsipnya, tidak ada
-                                                biaya selama proses
-                                                pendaftaran.
-                                            </li>
-                                            <li>
-                                                Biaya yang diperlukan adalah
-                                                tes tahap pertama, tes MCU
-                                                (Medical Check up),
-                                                Pembuatan Paspor, Biaya
-                                                Pelatihan dan
-                                                pemberangkatan.
-                                            </li>
-                                        </ul>
-                                    </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-heading3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse3" aria-expanded="true"
+                                    aria-controls="flush-collapse3">
+                                    D. Berapa biaya yang harus
+                                    dipersiapkan ?
+                                </button>
+                            </h2>
+                            <div id="flush-collapse3" class="accordion-collapse collapse"
+                                aria-labelledby="flush-heading3" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>
+                                            Pada prinsipnya, tidak ada
+                                            biaya selama proses
+                                            pendaftaran.
+                                        </li>
+                                        <li>
+                                            Biaya yang diperlukan adalah
+                                            tes tahap pertama, tes MCU
+                                            (Medical Check up),
+                                            Pembuatan Paspor, Biaya
+                                            Pelatihan dan
+                                            pemberangkatan.
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="flush-heading4">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapse4" aria-expanded="true"
-                                        aria-controls="flush-collapse4">
-                                        E. Lowongan apa saja yang tersedia ?
-                                    </button>
-                                </h2>
-                                <div id="flush-collapse4" class="accordion-collapse collapse"
-                                    aria-labelledby="flush-heading4" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">
-                                        <ol>
-                                            <li>
-                                                Di bidang pengolahan besi
-                                                baja (iron working, casting,
-                                                Plating, Konstruksi)
-                                            </li>
-                                            <li>Pertanian</li>
-                                            <li>Peternakan</li>
-                                            <li>Perikanan</li>
-                                            <li>Konstruksi</li>
-                                        </ol>
-                                    </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-heading4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse4" aria-expanded="true"
+                                    aria-controls="flush-collapse4">
+                                    E. Lowongan apa saja yang tersedia ?
+                                </button>
+                            </h2>
+                            <div id="flush-collapse4" class="accordion-collapse collapse"
+                                aria-labelledby="flush-heading4" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <ol>
+                                        <li>
+                                            Di bidang pengolahan besi
+                                            baja (iron working, casting,
+                                            Plating, Konstruksi)
+                                        </li>
+                                        <li>Pertanian</li>
+                                        <li>Peternakan</li>
+                                        <li>Perikanan</li>
+                                        <li>Konstruksi</li>
+                                    </ol>
                                 </div>
                             </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="flush-heading5">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapse5" aria-expanded="true"
-                                        aria-controls="flush-collapse5">
-                                        F. Berapa lama Pendidikan di LPK
-                                        Mitra Jaya Indonesia, dan
-                                        fasilitas-fasilitas apa saja yang
-                                        akan didapatkan ?
-                                    </button>
-                                </h2>
-                                <div id="flush-collapse5" class="accordion-collapse collapse"
-                                    aria-labelledby="flush-heading5" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">
-                                        <ol>
-                                            <li>
-                                                Pendidikan di
-                                                <strong>LPK Mitra Jaya
-                                                    Indonesia</strong>
-                                                selama 5 sampai dengan 6
-                                                bulan, disesuaikan dengan
-                                                permohonan dari User di
-                                                Jepang. Pendidikan dilakukan
-                                                8 jam dari hari Senin hingga
-                                                Jumat, dan 4 jam di hari
-                                                Sabtu.
-                                            </li>
-                                            <li>
-                                                Asrama (tempat tinggal),
-                                                sarapan pagi, makan siang,
-                                                makan malam, perlengkapan
-                                                belajar, perlengkapan
-                                                ibadah, pakaian training
-                                                olahraga, jas, koper.
-                                            </li>
-                                        </ol>
-                                    </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-heading5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse5" aria-expanded="true"
+                                    aria-controls="flush-collapse5">
+                                    F. Berapa lama Pendidikan di LPK
+                                    Mitra Jaya Indonesia, dan
+                                    fasilitas-fasilitas apa saja yang
+                                    akan didapatkan ?
+                                </button>
+                            </h2>
+                            <div id="flush-collapse5" class="accordion-collapse collapse"
+                                aria-labelledby="flush-heading5" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <ol>
+                                        <li>
+                                            Pendidikan di
+                                            <strong>LPK Mitra Jaya
+                                                Indonesia</strong>
+                                            selama 5 sampai dengan 6
+                                            bulan, disesuaikan dengan
+                                            permohonan dari User di
+                                            Jepang. Pendidikan dilakukan
+                                            8 jam dari hari Senin hingga
+                                            Jumat, dan 4 jam di hari
+                                            Sabtu.
+                                        </li>
+                                        <li>
+                                            Asrama (tempat tinggal),
+                                            sarapan pagi, makan siang,
+                                            makan malam, perlengkapan
+                                            belajar, perlengkapan
+                                            ibadah, pakaian training
+                                            olahraga, jas, koper.
+                                        </li>
+                                    </ol>
                                 </div>
                             </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="flush-heading6">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapse6" aria-expanded="true"
-                                        aria-controls="flush-collapse6">
-                                        G. Apakah LPK Mitra Jaya Indonesia
-                                        bisa menjamin pasti berangkat ke
-                                        Jepang ?
-                                    </button>
-                                </h2>
-                                <div id="flush-collapse6" class="accordion-collapse collapse"
-                                    aria-labelledby="flush-heading6" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">
-                                        <ol>
-                                            <li>
-                                                Jika calon Pemagang telah
-                                                lulus Seleksi User, lulus
-                                                tes MCU Tahap Pertama dan
-                                                masuk Pendidikan di LPK
-                                                Mitra Jaya Indonesia, pada
-                                                prinsipnya kemungkinan besar
-                                                pasti akan berangkat ke
-                                                Jepang.
-                                            </li>
-                                            <li>
-                                                Namun, pihak User Jepang
-                                                atau
-                                                <strong>LPK Mitra Jaya
-                                                    Indonesia</strong>
-                                                juga dapat membatalkan, jika
-                                                calon Pemagang melanggar
-                                                peraturan, dinilai tidak
-                                                bisa mengikuti Program
-                                                Pendidikan, memiliki masalah
-                                                kesehatan atau masalah sikap
-                                                mental yang dianggap tidak
-                                                bisa beradaptasi hidup di
-                                                Jepang kemudian harinya.
-                                            </li>
-                                        </ol>
-                                    </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-heading6">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse6" aria-expanded="true"
+                                    aria-controls="flush-collapse6">
+                                    G. Apakah LPK Mitra Jaya Indonesia
+                                    bisa menjamin pasti berangkat ke
+                                    Jepang ?
+                                </button>
+                            </h2>
+                            <div id="flush-collapse6" class="accordion-collapse collapse"
+                                aria-labelledby="flush-heading6" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <ol>
+                                        <li>
+                                            Jika calon Pemagang telah
+                                            lulus Seleksi User, lulus
+                                            tes MCU Tahap Pertama dan
+                                            masuk Pendidikan di LPK
+                                            Mitra Jaya Indonesia, pada
+                                            prinsipnya kemungkinan besar
+                                            pasti akan berangkat ke
+                                            Jepang.
+                                        </li>
+                                        <li>
+                                            Namun, pihak User Jepang
+                                            atau
+                                            <strong>LPK Mitra Jaya
+                                                Indonesia</strong>
+                                            juga dapat membatalkan, jika
+                                            calon Pemagang melanggar
+                                            peraturan, dinilai tidak
+                                            bisa mengikuti Program
+                                            Pendidikan, memiliki masalah
+                                            kesehatan atau masalah sikap
+                                            mental yang dianggap tidak
+                                            bisa beradaptasi hidup di
+                                            Jepang kemudian harinya.
+                                        </li>
+                                    </ol>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <h2 style="text-align: center;font-size: large;">Tidak menemukan jawaban? Tinggalkan pesan disini, admin
-                    akan menjawab pertanyaan anda.</h2>
-                <div class="row mt-5 justify-content-center">
-                    <div class="col-lg-10">
-                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                            <div class="row">
-                                <div class="col-md-6 form-group">
-                                    <input type="text" name="name" class="form-control" id="name"
-                                        placeholder="Your Name" required />
-                                </div>
-                                <div class="col-md-6 form-group mt-3 mt-md-0">
-                                    <input type="email" class="form-control" name="email" id="email"
-                                        placeholder="Your Email" required />
-                                </div>
+            </div>
+            <h2 style="text-align: center;font-size: large;">Tidak menemukan jawaban? Tinggalkan pesan disini, admin
+                akan menjawab pertanyaan anda.</h2>
+            <div class="row mt-5 justify-content-center">
+                <div class="col-lg-10">
+                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <input type="text" name="name" class="form-control" id="name"
+                                    placeholder="Your Name" required />
                             </div>
-                            <div class="form-group mt-3">
-                                <input type="text" class="form-control" name="subject" id="subject"
-                                    placeholder="Subject" required />
+                            <div class="col-md-6 form-group mt-3 mt-md-0">
+                                <input type="email" class="form-control" name="email" id="email"
+                                    placeholder="Your Email" required />
                             </div>
-                            <div class="form-group mt-3">
-                                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                            </div>
-                            <div class="text-center">
-                                <button type="submit" style="border-radius: 10px; background-color: goldenrod;">Send
-                                    Message</button>
-                            </div>
-                        </form>
-                    </div>
+                        </div>
+                        <div class="form-group mt-3">
+                            <input type="text" class="form-control" name="subject" id="subject"
+                                placeholder="Subject" required />
+                        </div>
+                        <div class="form-group mt-3">
+                            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" style="border-radius: 10px; background-color: goldenrod;">Send
+                                Message</button>
+                        </div>
+                    </form>
                 </div>
             </div>
+        </div>
         </div>
     </section>
     <!-- Pertanyaan Yang Sering di Ajukan End -->

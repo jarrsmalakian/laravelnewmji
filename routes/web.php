@@ -14,11 +14,11 @@ use Illuminate\Support\Facades\Route;
  */
 
 Route::get('/', function () {
-    return view('layout.home');
+    return view('menu.home');
 });
 
 Route::get('/home', function () {
-    return view('layout.home');
+    return view('menu.home');
 });
 
 Route::get('/ap2ln', function () {

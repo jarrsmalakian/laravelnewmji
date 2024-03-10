@@ -92,6 +92,7 @@ article,
 aside,
 footer,
 figcaption {
+    text-align: justify;
     margin: 0;
     padding: 0;
     border: 0;
@@ -123,7 +124,7 @@ ul,
 li {
     padding: 0;
     margin: 0;
-    list-style: none;
+    text-align: left;
 }
 
 header,
@@ -221,6 +222,7 @@ body {
 }
 
 .section-heading h2 {
+    text-align: center;
     font-size: 28px;
     font-weight: 800;
     color: #232d39;
