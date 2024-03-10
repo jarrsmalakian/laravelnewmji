@@ -70,22 +70,21 @@
                             <!-- ***** Logo End ***** -->
                             <!-- ***** Menu Start ***** -->
                             <ul class="nav">
-                                <li class="scroll-to-section">
-                                    <a href="#top" class="active">Home</a>
+                                <li class="nav-item">
+                                    <a href="" class="active">Home</a>
                                 </li>
-                                <li class="scroll-to-section">
-                                    <a href="#features">AP2LN</a>
+                                <li class="nav-item">
+                                    <a href="{{ url('/ap2ln')}}">AP2LN</a>
                                 </li>
-                                <li class="scroll-to-section">
-                                    <a href="#our-classes">Informasi</a>
+                                <li class="nav-item">
+                                    <a href="{{ url('/informasi')}}">Informasi</a>
                                 </li>
-                                <li class="scroll-to-section">
-                                    <a href="#schedule">karir</a>
+                                <li class="nav-item">
+                                    <a href="{{ url('/karir')}}">karir</a>
                                 </li>
-                                <li class="scroll-to-section">
-                                    <a href="#contact-us">kontak</a>
+                                <li class="nav-item">
+                                    <a href="{{ url('/kontak')}}">kontak</a>
                                 </li>
-
                                 <li class="main-button">
                                     <a href="">Login</a>
                                 </li>
@@ -1565,112 +1564,20 @@
         </section>
         <!-- Pertanyaan Yang Sering di Ajukan End -->
 
-        <section id="contact-us" class="section">
+       <!-- Contact Section -->
+       <section id="contact-us" class="section">
             <div class="container">
-                <div
-                    class="row no-gutters justify-content-center">
-                    
-
-                        <iframe
-                            style="border: 0; width: 100%; height: 270px"
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
-                            frameborder="0"
-                            allowfullscreen
-                        ></iframe>
-                    
-                </div>
-
-        
+                <div class="row no-gutters justify-content-center">
+                    <iframe
+                        style="border: 0; width: 100%; height: 270px"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.722310157253!2d110.20713311002598!3d-7.495879873900101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a8f12a8f5acd3%3A0x569c3f8c542dc94d!2sLPK%20Mitra%20Jaya%20Indonesia%20New!5e0!3m2!1sen!2sid!4v1709741653610!5m2!1sen!2sid"
+                        frameborder="0"
+                        allowfullscreen
+                    ></iframe>
                 </div>
             </div>
         </section>
         <!-- End Contact Section -->
-
-        <!-- ***** Contact Us Area Starts ***** -->
-        <!-- <section class="section" id="contact-us">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-xs-12">
-                        <div id="map">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.722310157253!2d110.20713311002598!3d-7.495879873900101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a8f12a8f5acd3%3A0x569c3f8c542dc94d!2sLPK%20Mitra%20Jaya%20Indonesia%20New!5e0!3m2!1sen!2sid!4v1709741653610!5m2!1sen!2sid"
-                                width="100%"
-                                height="600px"
-                                frameborder="0"
-                                style="border: 0"
-                                allowfullscreen
-                            ></iframe>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-xs-12">
-                        <div class="contact-form">
-                            <form id="contact" action="" method="post">
-                                <div class="row">
-                                    <div class="col-md-6 col-sm-12">
-                                        <fieldset>
-                                            <input
-                                                name="name"
-                                                type="text"
-                                                id="name"
-                                                placeholder="Your Name*"
-                                                required=""
-                                            />
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-md-6 col-sm-12">
-                                        <fieldset>
-                                            <input
-                                                name="email"
-                                                type="text"
-                                                id="email"
-                                                pattern="[^ @]*@[^ @]*"
-                                                placeholder="Your Email*"
-                                                required=""
-                                            />
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-md-12 col-sm-12">
-                                        <fieldset>
-                                            <input
-                                                name="subject"
-                                                type="text"
-                                                id="subject"
-                                                placeholder="Subject"
-                                            />
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <fieldset>
-                                            <textarea
-                                                name="message"
-                                                rows="6"
-                                                id="message"
-                                                placeholder="Message"
-                                                required=""
-                                            ></textarea>
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <fieldset>
-                                            <button
-                                                type="submit"
-                                                id="form-submit"
-                                                class="main-button"
-                                            >
-                                                Send Message
-                                            </button>
-                                        </fieldset>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!-- ***** Contact Us Area Ends ***** -->
-
-        
 
         <!-- ======= Footer ======= -->
         <footer id="footer">
