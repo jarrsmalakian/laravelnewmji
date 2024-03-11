@@ -6,6 +6,8 @@
             <div class="row">
                 <div class="section-heading">
                     <img src="{{ asset('assets/images/before-and-after-logo-ap2ln-1.png') }}" alt="waves" />
+
+
                     <hr>
                     <div class="clearfix">
                         <img src="{{ asset('assets/images/home-about-us-introducing-1.png') }}"
@@ -49,6 +51,7 @@
                             dalam mengurangi jumlah pengangguran di Indonesia. Indonesia.
                         </p>
                     </div>
+                    <hr>
                 </div>
             </div>
         </div>

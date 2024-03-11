@@ -23,16 +23,16 @@ Table of contents
 12. portfolio
 
 --------------------------------------------- */
-/* 
+/*
 ---------------------------------------------
 font & reset css
---------------------------------------------- 
+---------------------------------------------
 */
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
-/* 
+/*
 ---------------------------------------------
 reset
---------------------------------------------- 
+---------------------------------------------
 */
 html,
 body,
@@ -92,7 +92,6 @@ article,
 aside,
 footer,
 figcaption {
-    text-align: justify;
     margin: 0;
     padding: 0;
     border: 0;
@@ -120,9 +119,11 @@ html[xmlns] .clearfix {
     height: 1%;
 }
 
+
+ol,
 ul,
 li {
-    padding: 0;
+    padding: 10px;
     margin: 0;
     text-align: left;
 }
@@ -176,10 +177,10 @@ p {
     color: #7a7a7a;
 }
 
-/* 
+/*
 ---------------------------------------------
 global styles
---------------------------------------------- 
+---------------------------------------------
 */
 
 html,
@@ -222,7 +223,6 @@ body {
 }
 
 .section-heading h2 {
-    text-align: center;
     font-size: 28px;
     font-weight: 800;
     color: #232d39;
@@ -265,10 +265,10 @@ body {
     background-color: #f9735b;
 }
 
-/* 
+/*
 ---------------------------------------------
 header
---------------------------------------------- 
+---------------------------------------------
 */
 
 .background-header {
@@ -323,7 +323,7 @@ header
 
 .header-area .main-nav .logo {
     line-height: 80px;
-    color: #fff;
+    color: #dfb5b5;
     font-size: 25px;
     font-weight: 800;
     text-transform: uppercase;
@@ -361,7 +361,7 @@ header
 .header-area .main-nav .nav li a {
     display: block;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 14px;
     color: #7a7a7a;
     text-transform: uppercase;
     -webkit-transition: all 0.3s ease 0s;
@@ -375,7 +375,7 @@ header
 }
 
 .header-area .main-nav .nav li a {
-    color: #fff;
+    color: #dfb5b5;
 }
 
 .header-area .main-nav .nav li:last-child a {
@@ -553,7 +553,7 @@ header
         opacity: 1;
     }
     .header-area {
-        background-color: #f7f7f7;
+        background-color: #fae5e5;
         padding: 0px 15px;
         height: 80px;
         box-shadow: none;
@@ -662,10 +662,10 @@ header
     }
 }
 
-/* 
+/*
 ---------------------------------------------
 banner
---------------------------------------------- 
+---------------------------------------------
 */
 
 .main-banner {
@@ -883,7 +883,7 @@ Our Classes
 .tabs-content img {
     max-width: 100%;
     overflow: hidden;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 .tabs-content h4 {
     font-size: 23px;
@@ -899,10 +899,10 @@ Our Classes
     margin-bottom: 28px;
 }
 
-/* 
+/*
 ---------------------------------------------
 schedule
---------------------------------------------- 
+---------------------------------------------
 */
 
 #schedule {
@@ -1002,10 +1002,10 @@ schedule
     transition: all 350ms;
 }
 
-/* 
+/*
 ---------------------------------------------
 trainers
---------------------------------------------- 
+---------------------------------------------
 */
 
 #trainers .trainer-item {
@@ -1059,10 +1059,10 @@ trainers
     color: #87a922;
 }
 
-/* 
+/*
 ---------------------------------------------
 contact
---------------------------------------------- 
+---------------------------------------------
 */
 
 #contact-us {
@@ -1290,10 +1290,10 @@ contact
     color: #fff;
 }
 
-/* 
+/*
 ---------------------------------------------
 preloader
---------------------------------------------- 
+---------------------------------------------
 */
 
 .js-preloader {
@@ -1390,10 +1390,10 @@ preloader
     border-radius: 50%;
 }
 
-/* 
+/*
 ---------------------------------------------
 responsive
---------------------------------------------- 
+---------------------------------------------
 */
 
 @media (max-width: 992px) {

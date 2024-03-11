@@ -26,7 +26,11 @@ Route::get('/ap2ln', function () {
 });
 
 Route::get('/informasi', function () {
-    return view('menu.informasi');
+    return view('menu.informasi.index');
+});
+
+Route::get('/informasi/jadwal', function () {
+    return view('menu.informasi.jadwal');
 });
 
 Route::get('/karir', function () {

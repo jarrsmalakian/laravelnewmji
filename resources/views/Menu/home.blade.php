@@ -11,15 +11,15 @@
             <div class="caption">
                 <!-- <h6>let's grow tothether with us</h6> -->
                 <h2>let's grow together <em>with us</em></h2>
-                <div class="main-button scroll-to-section">
-                    <a href="">daftar magang</a>
-                </div>
+                <a class="btn btn-primary" href="{{ url('register') }}">DAFTAR MAGANG</a>
+
+
             </div>
         </div>
     </div>
     <!-- ***** Main Banner Area End ***** -->
 
-    <!-- ***** Features Item Start ***** -->
+    <!-- ***** Menu Start ***** -->
     <section class="section" id="features">
         <div class="container">
             <div class="row">
@@ -129,7 +129,7 @@
             </div>
         </div>
     </section>
-    <!-- ***** Features Item End ***** -->
+    <!-- ***** Menu End ***** -->
 
     <section class="section" id="our-classes" style="background-color: rgb(237, 250, 247);">
         <div class="container">
@@ -165,19 +165,19 @@
                 <div class="col-lg-8">
                     <section class="tabs-content">
                         <article id="tabs-1">
-                            <img src="{{ asset('assets/images/training-image-01.JPG') }}" alt="First Class" />
+                            <img src="{{ asset('assets/images/kantor.png') }}" alt="kantor" />
                             <h4>Ruang Kantor</h4>
                             <p>
                                 Ruang kerja staff LPK Mitra Jaya Indonesia
                             </p>
                         </article>
                         <article id="tabs-2">
-                            <img src="{{ asset('assets/images/training-image-02.JPG') }}" alt="Second Training" />
+                            <img src="{{ asset('assets/images/training-image-02.jpg') }}" alt="Second Training" />
                             <h4>Ruang Tamu</h4>
                             <p>Ruang untuk menerima tamu</p>
                         </article>
                         <article id="tabs-3">
-                            <img src="{{ asset('assets/images/training-image-03.JPG') }}" alt="Third Class" />
+                            <img src="{{ asset('assets/images/training-image-01.jpg') }}" alt="Third Class" />
                             <h4>Ruang Kelas</h4>
                             <p>
                                 4 Ruang kelas penunjang kegiatan belajar
@@ -185,7 +185,7 @@
                             </p>
                         </article>
                         <article id="tabs-4">
-                            <img src="{{ asset('assets/images/training-image-04.jpg') }}" alt="Fourth Training" />
+                            <img src="{{ asset('assets/images/ruangmakan.jpg') }}" alt="Fourth Training" />
                             <h4>Ruang Makan</h4>
                             <p>
                                 1 ruang makan untuk para siswa magang dengan
@@ -193,7 +193,7 @@
                             </p>
                         </article>
                         <article id="tabs-5">
-                            <img src="{{ asset('assets/images/training-image-04.jpg') }}" alt="Fourth Training" />
+                            <img src="{{ asset('assets/images/training-image-03.jpg') }}" alt="Fourth Training" />
                             <h4>Kamar Tidur</h4>
                             <p>
                                 Asrama khusus laki-laki dengan kapasitas
@@ -201,7 +201,7 @@
                             </p>
                         </article>
                         <article id="tabs-6">
-                            <img src="{{ asset('assets/images/training-image-04.jpg') }}" alt="Fourth Training" />
+                            <img src="{{ asset('assets/images/training-image-03.jpg') }}" alt="Fourth Training" />
                             <h4>Lapangan Olahraga</h4>
                             <p>
                                 Lapangan olahraga untuk melatih fisik dan
@@ -309,7 +309,7 @@
     </section>
     <!-- ***** Call to Action End ***** -->
 
-    <!-- ***** Testimonials Starts ***** -->
+    <!-- ***** Pengajar Starts ***** -->
     <section class="section" id="trainers">
         <div class="container">
             <div class="row">
@@ -403,9 +403,9 @@
             </div>
         </div>
     </section>
-    <!-- ***** Testimonials Ends ***** -->
+    <!-- ***** Pengajar Ends ***** -->
 
-    <!-- ***** Features Item Start ***** -->
+    <!-- ***** Jenis Kerja ***** -->
     <section class="section" id="features">
         <div class="container">
             <div class="row">
@@ -427,9 +427,9 @@
                         <li class="feature-item">
                             <div class="left-icon">
                                 <!-- <img
-                                                                                                        src="assets/images/features-first-icon.png"
-                                                                                                        alt="First One"
-                                                                                                    /> -->
+                                                                                                                                                                            src="assets/images/features-first-icon.png"
+                                                                                                                                                                            alt="First One"
+                                                                                                                                                                        /> -->
                             </div>
                             <div class="right-content">
                                 <h4>Iron Working</h4>
@@ -522,7 +522,7 @@
             </div>
         </div>
     </section>
-    <!-- ***** Features Item End ***** -->
+    <!-- ***** Jenis Kerja End ***** -->
 
     <!-- ***** Call to Action Start ***** -->
     <section class="section" id="call-to-action">

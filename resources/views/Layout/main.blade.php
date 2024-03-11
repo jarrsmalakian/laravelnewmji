@@ -23,10 +23,27 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/font-awesome.css') }}" />
 
     <link rel="stylesheet" href="{{ asset('assets/css/templatemo-training-studio.css') }}" />
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
 </head>
 
 <body>
-    <!-- ***** Preloader Start ***** -->
+    {{--  Preloader Start  --}}
     <div id="js-preloader" class="js-preloader">
         <div class="preloader-inner">
             <span class="dot"></span>
@@ -37,9 +54,9 @@
             </div>
         </div>
     </div>
-    <!-- ***** Preloader End ***** -->
+    {{--  Preloader End  --}}
 
-    <!-- ***** Header Area Start ***** -->
+    {{--  Header  --}}
     <header class="header-area header-sticky">
         <div class="container">
             <div class="row">
@@ -84,11 +101,11 @@
             </div>
         </div>
     </header>
-    <!-- ***** Header Area End ***** -->
+    {{--  End Header  --}}
 
     @yield('content')
 
-    <!-- ======= Footer ======= -->
+    {{--  Footer  --}}
     <footer id="footer">
         <div class="footer-top">
             <div class="container">
@@ -193,9 +210,12 @@
             </div>
         </div>
     </footer>
-    <!-- End Footer -->
+    {{--  End Footer  --}}
 
-    <!-- jQuery -->
+    {{--  Script  --}}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"
+        integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async>
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
     </script>
@@ -203,17 +223,14 @@
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
     </script>
     <script src="{{ asset('assets/js/jquery-2.1.0.min.js') }}"></script>
-
-    <!-- Plugins -->
     <script src="{{ asset('assets/js/scrollreveal.min.js') }}"></script>
     <script src="{{ asset('assets/js/waypoints.min.js') }}"></script>
     <script src="{{ asset('assets/js/jquery.counterup.min.js') }}"></script>
     <script src="{{ asset('assets/js/imgfix.min.js') }}"></script>
     <script src="{{ asset('assets/js/mixitup.js') }}"></script>
     <script src="{{ asset('assets/js/accordions.js') }}"></script>
-
-    <!-- Global Init -->
     <script src="{{ asset('assets/js/custom.js') }}"></script>
+    {{--  End Script  --}}
 </body>
 
 </html>
