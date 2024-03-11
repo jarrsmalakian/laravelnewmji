@@ -31,7 +31,7 @@
                             <img src="{{ asset('assets/images/hakim.jpg') }}" class="col-md-6 float-md-end mb-3 ms-md-3"
                                 alt="direktur" />
 
-                            <p>
+                            <p style="text-align: justify">
                                 <strong>Mitra Jaya Indonesia</strong> adalah
                                 Lembaga yang dikelola secara langsung oleh
                                 berbagai macam profesional dan ahli yang
@@ -427,9 +427,9 @@
                         <li class="feature-item">
                             <div class="left-icon">
                                 <!-- <img
-                                                                                                                                                                                        src="assets/images/features-first-icon.png"
-                                                                                                                                                                                        alt="First One"
-                                                                                                                                                                                    /> -->
+                                                                                                                                                                                                            src="assets/images/features-first-icon.png"
+                                                                                                                                                                                                            alt="First One"
+                                                                                                                                                                                                        /> -->
                             </div>
                             <div class="right-content">
                                 <h4>Iron Working</h4>
@@ -761,38 +761,38 @@
                                 aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     <ol>
-                                        <li>
+                                        <li style="text-align: justify">
                                             Usia minimal 19,5 tahun dan
                                             maksimal 26 tahun sesuai
                                             persyaratan User.
                                         </li>
-                                        <li>
+                                        <li style="text-align: justify">
                                             Pendidikan minimal SMA, SMK,
                                             MA, Paket C atau yang setara
                                             (kecuali dipersyaratkan
                                             User).
                                         </li>
-                                        <li>
+                                        <li style="text-align: justify">
                                             Tinggi badan minimal 162 cm
                                             bagi pria dan minimal 155 cm
                                             bagi wanita (kecuali
                                             dipersyaratkan User).
                                         </li>
-                                        <li>
+                                        <li style="text-align: justify">
                                             Berat badan proporsional,
                                             maksimal 78 kg.
                                         </li>
-                                        <li>
+                                        <li style="text-align: justify">
                                             Sehat Jasmani dan Rohani.
                                         </li>
-                                        <li>
+                                        <li style="text-align: justify">
                                             Penglihatan normal dan tidak
                                             buta warna, minus mata
                                             maksimal -0,25 (kecuali ada
                                             yang diperbolehkan memakai
                                             kaca mata oleh pihak User).
                                         </li>
-                                        <li>
+                                        <li style="text-align: justify">
                                             Dalam kondisi sehat, tidak
                                             pernah menderita
                                             penyakit-penyakit seperti
@@ -805,7 +805,7 @@
                                             Pendidikan dan Pemagangan
                                             nantinya.
                                         </li>
-                                        <li>
+                                        <li style="text-align: justify">
                                             Belum pernah mengajukan atau
                                             mengikuti Program Pemagangan
                                             ke Jepang maupun Program
@@ -814,7 +814,7 @@
                                             masalah dengan keimigrasian
                                             Indonesia dan Jepang.
                                         </li>
-                                        <li>
+                                        <li style="text-align: justify">
                                             Memiliki semua kelengkapan
                                             dokumen dan tidak
                                             bermasalah, seperti KTP, KK,
@@ -823,18 +823,18 @@
                                             (pastikan eja’an nama sama
                                             semua)
                                         </li>
-                                        <li>
+                                        <li style="text-align: justify">
                                             Jujur dan tidak sedang
                                             terikat dengan LPK (Lembaga
                                             Pendidikan Ketrampilan)
                                             manapun.
                                         </li>
-                                        <li>
+                                        <li style="text-align: justify">
                                             Telah memahami dan
                                             menyetujui semua proses
                                             Pendidikan dan Pemagangan.
                                         </li>
-                                        <li>
+                                        <li style="text-align: justify">
                                             Telah mendapat ijin
                                             mengikuti Pendidikan dan
                                             Program Pemagangan dari
@@ -866,7 +866,7 @@
                                 aria-labelledby="flush-heading1" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     <ol>
-                                        <li>
+                                        <li style="text-align: justify">
                                             Cara mendaftar di
                                             <strong>LPK Mitra Jaya
                                                 Indonesia</strong>
@@ -878,14 +878,14 @@
                                             ditanyakan dalam Form
                                             Pendaftaran secara online.
                                         </li>
-                                        <li>
+                                        <li style="text-align: justify">
                                             Selain itu bisa dengan
                                             mendownload CV pendaftaran,
                                             setelah di isi lengkap
                                             kemudian di kirim ke email
                                             lpkmitrajayaindonesia@yahoo.co.id
                                         </li>
-                                        <li>
+                                        <li style="text-align: justify">
                                             Bisa datang langsung ke
                                             kantor
                                             <strong>LPK Mitra Jaya
@@ -909,7 +909,7 @@
                                 aria-labelledby="flush-heading2" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     <ol>
-                                        <li>
+                                        <li style="text-align: justify">
                                             Persyaratan umum untuk
                                             mengikuti Program Pemagangan
                                             telah dijelaskan dalam
@@ -924,7 +924,7 @@
                                             dengan Imigrasi atau Hukum
                                             di Jepang.
                                         </li>
-                                        <li>
+                                        <li style="text-align: justify">
                                             Selanjutnya adalah memenuhi
                                             kriteria/persyaratan LPK
                                             Mitra Jaya Indonesia dan
@@ -932,7 +932,7 @@
                                             menjadi salah satu
                                             persyaratan yang utama.
                                         </li>
-                                        <li>
+                                        <li style="text-align: justify">
                                             Bagi mereka yang telah
                                             mendaftar dan dipanggil oleh
                                             staf perekrutan kami, maka
@@ -969,12 +969,12 @@
                                 aria-labelledby="flush-heading3" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     <ul>
-                                        <li>
+                                        <li style="text-align: justify">
                                             Pada prinsipnya, tidak ada
                                             biaya selama proses
                                             pendaftaran.
                                         </li>
-                                        <li>
+                                        <li style="text-align: justify">
                                             Biaya yang diperlukan adalah
                                             tes tahap pertama, tes MCU
                                             (Medical Check up),
@@ -998,15 +998,15 @@
                                 aria-labelledby="flush-heading4" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     <ol>
-                                        <li>
+                                        <li style="text-align: justify">
                                             Di bidang pengolahan besi
                                             baja (iron working, casting,
                                             Plating, Konstruksi)
                                         </li>
-                                        <li>Pertanian</li>
-                                        <li>Peternakan</li>
-                                        <li>Perikanan</li>
-                                        <li>Konstruksi</li>
+                                        <li style="text-align: justify">Pertanian</li>
+                                        <li style="text-align: justify">Peternakan</li>
+                                        <li style="text-align: justify">Perikanan</li>
+                                        <li style="text-align: justify">Konstruksi</li>
                                     </ol>
                                 </div>
                             </div>
@@ -1026,7 +1026,7 @@
                                 aria-labelledby="flush-heading5" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     <ol>
-                                        <li>
+                                        <li style="text-align: justify">
                                             Pendidikan di
                                             <strong>LPK Mitra Jaya
                                                 Indonesia</strong>
@@ -1038,7 +1038,7 @@
                                             Jumat, dan 4 jam di hari
                                             Sabtu.
                                         </li>
-                                        <li>
+                                        <li style="text-align: justify">
                                             Asrama (tempat tinggal),
                                             sarapan pagi, makan siang,
                                             makan malam, perlengkapan
@@ -1064,7 +1064,7 @@
                                 aria-labelledby="flush-heading6" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     <ol>
-                                        <li>
+                                        <li style="text-align: justify">
                                             Jika calon Pemagang telah
                                             lulus Seleksi User, lulus
                                             tes MCU Tahap Pertama dan
@@ -1074,7 +1074,7 @@
                                             pasti akan berangkat ke
                                             Jepang.
                                         </li>
-                                        <li>
+                                        <li style="text-align: justify">
                                             Namun, pihak User Jepang
                                             atau
                                             <strong>LPK Mitra Jaya
@@ -1101,6 +1101,4 @@
         </div>
     </section>
     <!-- Pertanyaan Yang Sering di Ajukan End -->
-
-   
 @endsection

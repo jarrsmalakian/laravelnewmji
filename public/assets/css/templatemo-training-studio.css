@@ -319,7 +319,7 @@ header
 
 .header-area .main-nav .logo {
   line-height: 80px;
-  color: #fff;
+  color: #FCDC2A;
   font-size: 25px;
   font-weight: 800;
   text-transform: uppercase;
@@ -371,7 +371,7 @@ header
 }
 
 .header-area .main-nav .nav li a {
-  color: #fff;
+  color: #FCDC2A;
 }
 
 .header-area .main-nav .nav li:last-child a {

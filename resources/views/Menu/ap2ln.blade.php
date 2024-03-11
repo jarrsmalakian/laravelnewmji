@@ -13,7 +13,7 @@
                     <div class="clearfix">
                         <img style="max-width: 300px" src="{{ asset('assets/images/home-about-us-introducing-1.png') }}"
                             class="col-md-6 float-md-end mb-3 ms-md-3" alt="ap2ln" />
-                        <p>
+                        <p style="text-align: justify">
                             AP2LN adalah perkumpulan lembaga Sending Organization (SO) di
                             Indonesia yang bekerja sama dengan Accepting Organization di
                             Jepang. AP2LN ini didirikan juga dengan tujuan menjaga stabilitas
