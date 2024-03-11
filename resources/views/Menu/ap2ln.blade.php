@@ -1,16 +1,17 @@
 @extends('layout.main')
 
 @section('content')
-    <section class="section" id="features">
+    <section class="section" id="features" style="background-color: #FFF3C7">
         <div class="container">
             <div class="row">
                 <div class="section-heading">
-                    <img src="{{ asset('assets/images/before-and-after-logo-ap2ln-1.png') }}" alt="waves" />
+                    <img style="max-width: 350px" src="{{ asset('assets/images/before-and-after-logo-ap2ln-1.png') }}"
+                        alt="waves" />
 
 
                     <hr>
                     <div class="clearfix">
-                        <img src="{{ asset('assets/images/home-about-us-introducing-1.png') }}"
+                        <img style="max-width: 300px" src="{{ asset('assets/images/home-about-us-introducing-1.png') }}"
                             class="col-md-6 float-md-end mb-3 ms-md-3" alt="ap2ln" />
                         <p>
                             AP2LN adalah perkumpulan lembaga Sending Organization (SO) di

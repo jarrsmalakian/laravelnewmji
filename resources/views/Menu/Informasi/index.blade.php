@@ -1,7 +1,7 @@
 @extends('layout.main')
 
 @section('content')
-    <section class="section" id="features">
+    <section class="section" id="features" style="background-color: #FFF3C7">
         <div class="container">
             <div class="row">
                 <div class="section-heading">
