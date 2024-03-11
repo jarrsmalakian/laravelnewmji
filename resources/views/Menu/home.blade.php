@@ -11,9 +11,7 @@
             <div class="caption">
                 <!-- <h6>let's grow tothether with us</h6> -->
                 <h2>let's grow together <em>with us</em></h2>
-                <a class="btn btn-primary" href="{{ url('register') }}">DAFTAR MAGANG</a>
-
-
+                <button type="button" class="btn btn-outline-warning" href="{{ url('register') }}">DAFTAR MAGANG</button>
             </div>
         </div>
     </div>
@@ -230,73 +228,61 @@
                                 aria-valuenow="77" aria-valuemin="0" aria-valuemax="907" style="width: 77%"></div>
                             Iron Working : 77,84%
                         </div>
-                        <p></p>
                         <div class="progress" style="height: 20px">
                             <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
                                 aria-valuenow="10" aria-valuemin="0" aria-valuemax="907" style="width: 10%"></div>
                             Casting : 9,15%
                         </div>
-                        <p></p>
                         <div class="progress" style="height: 20px">
                             <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
                                 aria-valuenow="5" aria-valuemin="0" aria-valuemax="907" style="width: 5%"></div>
                             Machining : 2,76%
                         </div>
-                        <p></p>
                         <div class="progress" style="height: 20px">
                             <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
                                 aria-valuenow="4" aria-valuemin="0" aria-valuemax="907" style="width: 4%"></div>
                             Painting : 2,21%
                         </div>
-                        <p></p>
                         <div class="progress" style="height: 20px">
                             <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
                                 aria-valuenow="4" aria-valuemin="0" aria-valuemax="907" style="width: 4%"></div>
                             Factory Metal Sheet Work : 2,21%
                         </div>
-                        <p></p>
                         <div class="progress" style="height: 20px">
                             <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
                                 aria-valuenow="3" aria-valuemin="0" aria-valuemax="907" style="width: 3%"></div>
                             Electroplating : 1,54%
                         </div>
-                        <p></p>
                         <div class="progress" style="height: 20px">
                             <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
                                 aria-valuenow="2" aria-valuemin="0" aria-valuemax="907" style="width: 2%"></div>
                             Scaffolding : 1,21%
                         </div>
-                        <p></p>
                         <div class="progress" style="height: 20px">
                             <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
                                 aria-valuenow="2" aria-valuemin="0" aria-valuemax="907" style="width: 2%"></div>
                             Ready-Made Meal Manufactoring Work : 0,99%
                         </div>
-                        <p></p>
                         <div class="progress" style="height: 20px">
                             <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
                                 aria-valuenow="1" aria-valuemin="0" aria-valuemax="907" style="width: 1%"></div>
                             Application Of Construction Equipment : 0,66%
                         </div>
-                        <p></p>
                         <div class="progress" style="height: 20px">
                             <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
                                 aria-valuenow="1" aria-valuemin="0" aria-valuemax="907" style="width: 1%"></div>
                             Welding : 0,22%
                         </div>
-                        <p></p>
                         <div class="progress" style="height: 20px">
                             <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
                                 aria-valuenow="1" aria-valuemin="0" aria-valuemax="907" style="width: 1%"></div>
                             Fish Paste Making : 0,22%
                         </div>
-                        <p></p>
                         <div class="progress" style="height: 20px">
                             <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
                                 aria-valuenow="1" aria-valuemin="0" aria-valuemax="907" style="width: 1%"></div>
                             Reinforcing Bar Construction : 0,22%
                         </div>
-                        <p></p>
                         <div class="progress" style="height: 20px">
                             <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
                                 aria-valuenow="1" aria-valuemin="0" aria-valuemax="907" style="width: 1%"></div>
@@ -427,9 +413,9 @@
                         <li class="feature-item">
                             <div class="left-icon">
                                 <!-- <img
-                                                                                                                                                                                                            src="assets/images/features-first-icon.png"
-                                                                                                                                                                                                            alt="First One"
-                                                                                                                                                                                                        /> -->
+                                                                                                                                                                                                                        src="assets/images/features-first-icon.png"
+                                                                                                                                                                                                                        alt="First One"
+                                                                                                                                                                                                                    /> -->
                             </div>
                             <div class="right-content">
                                 <h4>Iron Working</h4>
@@ -657,25 +643,6 @@
                     <div class="section-heading dark-bg">
                         <h2>kegiatan <em>belajar</em></h2>
                         <img src="{{ asset('assets/images/line-dec.png') }}" alt="" />
-                        <p>
-                            Kegiatan belajar selama 5 bulan (20 minggu)
-                            kurang lebih 1.015 jam yang meliputi :
-                        </p>
-                        <p style="text-align: left">
-                            1. Bahasa Jepang 815 jam (Grammar, Reading,
-                            Writing, Listening and Conversation)
-                        </p>
-                        <p style="text-align: left">
-                            2. Pengetahuan Hidup di Jepang 40 jam (Rules at
-                            Work and Safety work life of Japanese style)
-                        </p>
-                        <p style="text-align: left">
-                            3. Pengetahuan Magang di Jepang 40 jam.
-                        </p>
-                        <p style="text-align: left">
-                            4. FMD 120 jam (Fisik, Mental, Disiplin dan
-                            Wawasan Kebangsaan)
-                        </p>
                     </div>
                 </div>
             </div>

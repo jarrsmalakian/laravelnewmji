@@ -218,6 +218,8 @@ body {
   margin-bottom: 80px;
 }
 
+
+
 .section-heading h2 {
   font-size: 28px;
   font-weight: 800;
@@ -319,7 +321,7 @@ header
 
 .header-area .main-nav .logo {
   line-height: 80px;
-  color: #FCDC2A;
+  color: #65B741;
   font-size: 25px;
   font-weight: 800;
   text-transform: uppercase;
@@ -332,7 +334,7 @@ header
 
 .header-area .main-nav .logo em {
   font-style: normal;
-  color: #87a922;
+  color: #FFBB64;
   font-weight: 900;
 }
 
@@ -371,7 +373,7 @@ header
 }
 
 .header-area .main-nav .nav li a {
-  color: #FCDC2A;
+  color: #65B741;
 }
 
 .header-area .main-nav .nav li:last-child a {
@@ -775,7 +777,7 @@ subscribe
 
 #call-to-action {
   padding: 120px 0px;
-  background-image: url(../images/cta-bg.jpg);
+  background-image: url(../images/angkatan.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
