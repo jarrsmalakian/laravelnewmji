@@ -7,10 +7,17 @@
                 <div class="section-heading">
                     <h2>Halaman <em>karir</em></h2>
                     <img src="{{ asset('assets/images/line-dec.png') }}" alt="waves" />
-                    <p>Under Construction</p>
+                    <hr>
+                    <figure class="text-center">
+                        <blockquote class="blockquote">
+                            <p>Belum ada informasi terkait lowongan pekerjaan.</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer">
+                            Admin <cite title="Source Title">LPK Mitra Jaya Indonesia</cite>
+                        </figcaption>
+                    </figure>
                 </div>
             </div>
-        </div>
         </div>
     </section>
 @endsection

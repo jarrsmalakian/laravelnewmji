@@ -375,7 +375,7 @@ header
 }
 
 .header-area .main-nav .nav li a {
-    color: #dfb5b5;
+    color: rgb(223, 180, 180);
 }
 
 .header-area .main-nav .nav li:last-child a {

@@ -7,6 +7,7 @@
                 <div class="section-heading">
                     <h2>Informasi <em>Penting</em></h2>
                     <img src="{{ asset('assets/images/line-dec.png') }}" alt="waves" />
+                    <hr>
                     <p>Under Construction</p>
                 </div>
             </div>

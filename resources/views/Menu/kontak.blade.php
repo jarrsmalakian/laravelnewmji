@@ -7,6 +7,7 @@
                 <div class="section-heading">
                     <h2>contact <em>us</em></h2>
                     <img src="{{ asset('assets/images/line-dec.png') }}" alt="waves" />
+                    <hr>
                     <div class="container">
                         <div class="row no-gutters justify-content-center">
                             <iframe style="border: 0; width: 100%; height: 270px"

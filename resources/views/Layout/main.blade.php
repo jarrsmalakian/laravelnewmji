@@ -7,6 +7,8 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
 
+    <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
+
     <link
         href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
         rel="stylesheet" />
@@ -18,8 +20,6 @@
     <!-- Additional CSS Files -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/bootstrap.min.css') }}" />
-
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/font-awesome.css') }}" />
 
     <link rel="stylesheet" href="{{ asset('assets/css/templatemo-training-studio.css') }}" />
@@ -107,13 +107,13 @@
 
     {{--  Footer  --}}
     <footer id="footer">
-        <div class="footer-top">
+        <div class="footer-top" style="background-color: rgb(87, 27, 87)">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-info">
                             <h3 style="text-align: left">LPK Mitra Jaya Indonesia</h3>
-                            <p style="text-align: left">
+                            <p style="color: cyan">
                                 Jl. Sunan Kalijaga IIIA <br />
                                 Jurang Ombo Selatan, Kota Magelang<br /><br />
                                 <strong>Phone:</strong> +622933196196<br />
@@ -133,23 +133,23 @@
                     <div class="col-lg-2 col-md-6 footer-links">
                         <h4 style="text-align: left">Useful Links</h4>
                         <ul>
-                            <li>
+                            <li style="text-align: left">
                                 <i class="bx bx-chevron-right"></i>
                                 <a href="#">Home</a>
                             </li>
-                            <li>
+                            <li style="text-align: left">
                                 <i class="bx bx-chevron-right"></i>
                                 <a href="#">AP2LN</a>
                             </li>
-                            <li>
+                            <li style="text-align: left">
                                 <i class="bx bx-chevron-right"></i>
                                 <a href="#">Informasi</a>
                             </li>
-                            <li>
+                            <li style="text-align: left">
                                 <i class="bx bx-chevron-right"></i>
                                 <a href="#">Karir</a>
                             </li>
-                            <li>
+                            <li style="text-align: left">
                                 <i class="bx bx-chevron-right"></i>
                                 <a href="#">Kontak</a>
                             </li>
@@ -159,23 +159,23 @@
                     <div class="col-lg-3 col-md-6 footer-links">
                         <h4 style="text-align: left">Our Services</h4>
                         <ul>
-                            <li>
+                            <li style="text-align: left">
                                 <i class="bx bx-chevron-right"></i>
                                 <a href="#">Magang</a>
                             </li>
-                            <li>
+                            <li style="text-align: left">
                                 <i class="bx bx-chevron-right"></i>
                                 <a href="#">TG</a>
                             </li>
-                            <li>
+                            <li style="text-align: left">
                                 <i class="bx bx-chevron-right"></i>
                                 <a href="#">Tobi</a>
                             </li>
-                            <li>
+                            <li style="text-align: left">
                                 <i class="bx bx-chevron-right"></i>
                                 <a href="#">Pertanian</a>
                             </li>
-                            <li>
+                            <li style="text-align: left">
                                 <i class="bx bx-chevron-right"></i>
                                 <a href="#">Garmen</a>
                             </li>
