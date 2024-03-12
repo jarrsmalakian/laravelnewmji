@@ -1145,13 +1145,14 @@ footer
 ---------------------------------------------
 */
 footer {
-  text-align: center;
+  text-align: left;
   padding: 30px 10px;
+  background-color: #232d39;
 }
 
 footer p {
-  color: #232d39;
-  font-size: 13px;
+  color: #65B741;
+  font-size: 14px;
 }
 
 footer p a {
@@ -1163,6 +1164,10 @@ footer p a:hover {
   color: #87a922;
 }
 
+footer ul li {
+  display: block;
+  color: #65B741;
+}
 /*
 ---------------------------------------------
 preloader
